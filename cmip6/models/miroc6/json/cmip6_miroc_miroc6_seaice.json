@@ -1,0 +1,86 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "miroc", 
+    "seedingSource": "cmip5:miroc5", 
+    "sourceID": "miroc6", 
+    "topic": "seaice", 
+    "authors": [], 
+    "contributors": [], 
+    "content": {
+        "cmip6.seaice.dynamics.ice_strength_formulation": {
+            "values": [
+                "Other: hibler (1979) type, p*=2.0e2 n/m"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.redistribution": {
+            "values": [
+                "Ridging"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.rheology": {
+            "values": [
+                "Other: evp"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.transport_in_thickness_space": {
+            "values": [
+                "Other: linear remapping"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.grid": {
+            "values": [
+                "Ocean grid"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.vertical.layering": {
+            "values": [
+                "Other: 5"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.name": {
+            "values": [
+                "Sea Ice"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.variables.prognostic": {
+            "values": [
+                "Other: concentration, ice thickness, snow thickness, ice temperature, horizontal velocity"
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.surface_albedo": {
+            "values": [
+                "Other: 0.85-0.95 for visible, 0.65-0.8 for near infrared, depends on temperature"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
+            "values": [
+                "Other: parametrized (calculated in seaice)"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.heat_diffusion": {
+            "values": [
+                "Other: multi-layer on a regular vertical grid"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.new_ice_formation": {
+            "values": [
+                "From open water, bottom, and lateral"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.melt_ponds.formulation": {
+            "values": [
+                "Other: no"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.heat_diffusion": {
+            "values": [
+                "Other: one layer"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.redistribution": {
+            "values": [
+                "Snow-ice"
+            ]
+        }
+    }
+}
