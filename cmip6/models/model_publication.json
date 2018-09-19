@@ -1,0 +1,139 @@
+{
+    "miroc6": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+        },
+	"seaice": {
+            "publish": "off"
+        }
+    }, 
+    "miroc-es2h": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmoschem": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+        }, 
+        "ocnbgchem": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
+    }, 
+    "miroc-es2l": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+	}, 
+        "ocnbgchem": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
+    },
+    "nicam16-7s": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
+    },
+    "nicam16-8s": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
+    },
+    "nicam16-9d-l78": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
+    },
+    "nicam16-9s": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
+    }
+}
