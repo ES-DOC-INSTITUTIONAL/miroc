@@ -1,5 +1,8 @@
 {
     "miroc-es2h": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -20,12 +23,12 @@
         }, 
         "seaice": {
             "initializedFrom": ""
-        }, 
-        "toplevel": {
-            "initializedFrom": ""
         }
     }, 
     "miroc-es2l": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -43,12 +46,12 @@
         }, 
         "seaice": {
             "initializedFrom": ""
-        }, 
-        "toplevel": {
-            "initializedFrom": ""
         }
     }, 
     "miroc6": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": "cmip5:miroc5"
         }, 
@@ -63,12 +66,12 @@
         }, 
         "seaice": {
             "initializedFrom": "cmip5:miroc5"
-        }, 
-        "toplevel": {
-            "initializedFrom": "cmip5:miroc5"
         }
     }, 
     "nicam16-7s": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -79,13 +82,13 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }, 
     "nicam16-8s": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -96,13 +99,13 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }, 
     "nicam16-9d-l78": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -113,13 +116,13 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }, 
     "nicam16-9s": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -130,9 +133,6 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }

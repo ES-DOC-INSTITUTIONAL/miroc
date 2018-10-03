@@ -93,11 +93,6 @@
                 "Yes"
             ]
         }, 
-        "cmip6.ocean.key_properties.nonoceanic_waters.river_mouth": {
-            "values": [
-                "N/A"
-            ]
-        }, 
         "cmip6.ocean.key_properties.prognostic_variables": {
             "values": [
                 "Potential temperature", 
@@ -115,11 +110,6 @@
         "cmip6.ocean.key_properties.seawater_properties.ocean_freezing_point": {
             "values": [
                 "Other: varying"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_background": {
-            "values": [
-                "N/A"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type": {

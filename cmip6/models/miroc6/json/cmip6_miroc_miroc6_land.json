@@ -184,11 +184,6 @@
                 "ISLSCP Initiative I (FAO, GISS, U. Arizona, NASA/GSFC)"
             ]
         }, 
-        "cmip6.land.soil.soil_map.water_table": {
-            "values": [
-                "N/A"
-            ]
-        }, 
         "cmip6.land.vegetation.interception": {
             "values": [
                 true
