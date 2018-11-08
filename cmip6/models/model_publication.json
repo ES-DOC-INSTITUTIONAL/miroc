@@ -70,19 +70,19 @@
     }, 
     "nicam16-7s": {
         "toplevel": {
-            "publish": "off"
+            "publish": "yes"
         }, 
         "aerosol": {
-            "publish": "off"
+            "publish": "yes"
         }, 
         "atmos": {
-            "publish": "off"
+            "publish": "yes"
         }, 
         "land": {
-            "publish": "off"
+            "publish": "yes"
         }, 
         "seaice": {
-            "publish": "off"
+            "publish": "yes"
         }
     }, 
     "nicam16-8s": {
