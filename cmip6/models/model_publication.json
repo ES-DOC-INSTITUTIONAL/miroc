@@ -50,7 +50,7 @@
     }, 
     "miroc6": {
         "toplevel": {
-            "publish": "yes"
+            "publish": "on"
         }, 
         "aerosol": {
             "publish": "off"
@@ -70,19 +70,19 @@
     }, 
     "nicam16-7s": {
         "toplevel": {
-            "publish": "yes"
+            "publish": "on"
         }, 
         "aerosol": {
-            "publish": "yes"
+            "publish": "on"
         }, 
         "atmos": {
-            "publish": "yes"
+            "publish": "on"
         }, 
         "land": {
-            "publish": "yes"
+            "publish": "on"
         }, 
         "seaice": {
-            "publish": "yes"
+            "publish": "on"
         }
     }, 
     "nicam16-8s": {
@@ -114,7 +114,7 @@
         }, 
         "land": {
             "publish": "off"
-        }, 
+        },  
         "seaice": {
             "publish": "off"
         }
