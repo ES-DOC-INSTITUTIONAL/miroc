@@ -1,177 +1,26 @@
 {
     "mipEra": "cmip6", 
     "institute": "miroc", 
-    "seedingSource": "cmip5:miroc5", 
+    "seedingSource": null, 
     "sourceID": "miroc6", 
     "topic": "land", 
-    "authors": [], 
-    "contributors": [], 
     "content": {
-        "cmip6.land.energy_balance.number_of_surface_temperatures": {
-            "values": [
-                2
-            ]
-        }, 
-        "cmip6.land.energy_balance.processes": {
-            "values": [
-                "transpiration"
-            ]
-        }, 
-        "cmip6.land.key_properties.land_cover": {
-            "values": [
-                "Other: ice", 
-                "bare soil", 
-                "lake", 
-                "vegetated"
-            ]
-        }, 
         "cmip6.land.key_properties.name": {
             "values": [
                 "Land Surface"
             ]
         }, 
+        "cmip6.land.key_properties.land_cover": {
+            "values": [
+                "Other: ice", 
+                "Bare soil", 
+                "Lake", 
+                "Vegetated"
+            ]
+        }, 
         "cmip6.land.key_properties.timestepping_framework.time_step": {
             "values": [
                 1
-            ]
-        }, 
-        "cmip6.land.lakes.coupling_with_rivers": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.land.lakes.method.albedo": {
-            "values": [
-                "diagnostic"
-            ]
-        }, 
-        "cmip6.land.lakes.method.dynamic_lake_extent": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.land.lakes.method.endorheic_basins": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.land.lakes.method.ice_treatment": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.land.lakes.quantities_exchanged_with_rivers": {
-            "values": [
-                "water"
-            ]
-        }, 
-        "cmip6.land.river_routing.basin_flow_direction_map": {
-            "values": [
-                "present day"
-            ]
-        }, 
-        "cmip6.land.river_routing.coupled_to_atmosphere": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.land.river_routing.number_of_reservoirs": {
-            "values": [
-                2
-            ]
-        }, 
-        "cmip6.land.river_routing.oceanic_discharge.discharge_type": {
-            "values": [
-                "direct (large rivers)"
-            ]
-        }, 
-        "cmip6.land.river_routing.oceanic_discharge.quantities_transported": {
-            "values": [
-                "water"
-            ]
-        }, 
-        "cmip6.land.snow.density": {
-            "values": [
-                "constant"
-            ]
-        }, 
-        "cmip6.land.snow.heat_content": {
-            "values": [
-                "diagnostic"
-            ]
-        }, 
-        "cmip6.land.snow.number_of_snow_layers": {
-            "values": [
-                3
-            ]
-        }, 
-        "cmip6.land.snow.processes": {
-            "values": [
-                "Other: snow refreezing", 
-                "snow interception", 
-                "snow melting"
-            ]
-        }, 
-        "cmip6.land.snow.snow_albedo.functions": {
-            "values": [
-                "aerosol deposition", 
-                "snow age"
-            ]
-        }, 
-        "cmip6.land.snow.snow_albedo.type": {
-            "values": [
-                "prognostic"
-            ]
-        }, 
-        "cmip6.land.snow.snow_cover_fractions": {
-            "values": [
-                "ground snow fraction", 
-                "vegetation snow fraction"
-            ]
-        }, 
-        "cmip6.land.snow.temperature": {
-            "values": [
-                "prognostic"
-            ]
-        }, 
-        "cmip6.land.snow.water_equivalent": {
-            "values": [
-                "prognostic"
-            ]
-        }, 
-        "cmip6.land.soil.heat_treatment.heat_storage": {
-            "values": [
-                "Explicit diffusion"
-            ]
-        }, 
-        "cmip6.land.soil.heat_treatment.processes": {
-            "values": [
-                "soil moisture freeze-thaw"
-            ]
-        }, 
-        "cmip6.land.soil.hydrology.freezing.ice_storage_method": {
-            "values": [
-                "Thermo dynamics"
-            ]
-        }, 
-        "cmip6.land.soil.hydrology.freezing.number_of_ground_ice_layers": {
-            "values": [
-                6
-            ]
-        }, 
-        "cmip6.land.soil.hydrology.method": {
-            "values": [
-                "Explicit diffusion"
-            ]
-        }, 
-        "cmip6.land.soil.hydrology.number_of_ground_water_layers": {
-            "values": [
-                6
-            ]
-        }, 
-        "cmip6.land.soil.soil_map.albedo": {
-            "values": [
-                "ISLSCP Initiative I (ERBE)"
             ]
         }, 
         "cmip6.land.soil.soil_map.structure": {
@@ -184,6 +33,98 @@
                 "ISLSCP Initiative I (FAO, GISS, U. Arizona, NASA/GSFC)"
             ]
         }, 
+        "cmip6.land.soil.soil_map.albedo": {
+            "values": [
+                "ISLSCP Initiative I (ERBE)"
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.number_of_ground_water_layers": {
+            "values": [
+                6
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.method": {
+            "values": [
+                "Explicit diffusion"
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.freezing.number_of_ground_ice_layers": {
+            "values": [
+                6
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.freezing.ice_storage_method": {
+            "values": [
+                "Thermo dynamics"
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.heat_storage": {
+            "values": [
+                "Explicit diffusion"
+            ]
+        }, 
+        "cmip6.land.snow.number_of_snow_layers": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.land.snow.density": {
+            "values": [
+                "Constant"
+            ]
+        }, 
+        "cmip6.land.snow.water_equivalent": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.heat_content": {
+            "values": [
+                "Diagnostic"
+            ]
+        }, 
+        "cmip6.land.snow.temperature": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.snow_cover_fractions": {
+            "values": [
+                "Ground snow fraction", 
+                "Vegetation snow fraction"
+            ]
+        }, 
+        "cmip6.land.snow.processes": {
+            "values": [
+                "Other: snow refreezing", 
+                "Snow interception", 
+                "Snow melting"
+            ]
+        }, 
+        "cmip6.land.snow.snow_albedo.type": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_representation": {
+            "values": [
+                "Vegetation types"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_types": {
+            "values": [
+                "C3 grass", 
+                "C4 grass", 
+                "Broadleaf tree", 
+                "Needleleaf tree", 
+                "Vegetated"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_time_variation": {
+            "values": [
+                "Prescribed (varying from files)"
+            ]
+        }, 
         "cmip6.land.vegetation.interception": {
             "values": [
                 true
@@ -191,34 +132,70 @@
         }, 
         "cmip6.land.vegetation.leaf_area_index": {
             "values": [
-                "prescribed"
+                "Prescribed"
             ]
         }, 
         "cmip6.land.vegetation.stomatal_resistance": {
             "values": [
                 "CO2", 
-                "light", 
-                "temperature", 
-                "water availability"
+                "Light", 
+                "Temperature", 
+                "Water availability"
             ]
         }, 
-        "cmip6.land.vegetation.vegetation_representation": {
+        "cmip6.land.energy_balance.number_of_surface_temperatures": {
             "values": [
-                "vegetation types"
+                2
             ]
         }, 
-        "cmip6.land.vegetation.vegetation_time_variation": {
+        "cmip6.land.river_routing.number_of_reservoirs": {
             "values": [
-                "prescribed (varying from files)"
+                2
             ]
         }, 
-        "cmip6.land.vegetation.vegetation_types": {
+        "cmip6.land.river_routing.coupled_to_atmosphere": {
             "values": [
-                "C3 grass", 
-                "C4 grass", 
-                "broadleaf tree", 
-                "needleleaf tree", 
-                "vegetated"
+                true
+            ]
+        }, 
+        "cmip6.land.river_routing.basin_flow_direction_map": {
+            "values": [
+                "Present day"
+            ]
+        }, 
+        "cmip6.land.river_routing.oceanic_discharge.discharge_type": {
+            "values": [
+                "Direct (large rivers)"
+            ]
+        }, 
+        "cmip6.land.lakes.coupling_with_rivers": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.lakes.quantities_exchanged_with_rivers": {
+            "values": [
+                "Water"
+            ]
+        }, 
+        "cmip6.land.lakes.method.ice_treatment": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.lakes.method.albedo": {
+            "values": [
+                "Diagnostic"
+            ]
+        }, 
+        "cmip6.land.lakes.method.dynamic_lake_extent": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.lakes.method.endorheic_basins": {
+            "values": [
+                true
             ]
         }
     }

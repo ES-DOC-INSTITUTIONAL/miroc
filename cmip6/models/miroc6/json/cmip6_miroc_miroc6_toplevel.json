@@ -1,0 +1,24 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "miroc", 
+    "seedingSource": null, 
+    "sourceID": "miroc6", 
+    "topic": "toplevel", 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "MIROC6"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.keywords": {
+            "values": [
+                "Coupled model"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "Coupled model developed by MIROC, incl. JAMSTEC, AORI, NIES, R-CCS, and others."
+            ]
+        }
+    }
+}
