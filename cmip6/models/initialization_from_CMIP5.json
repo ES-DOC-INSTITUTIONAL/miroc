@@ -15,6 +15,9 @@
         "land": {
             "initializedFrom": ""
         }, 
+        "landice": {
+            "initializedFrom": ""
+        }, 
         "ocean": {
             "initializedFrom": ""
         }, 
@@ -36,6 +39,9 @@
             "initializedFrom": ""
         }, 
         "land": {
+            "initializedFrom": ""
+        }, 
+        "landice": {
             "initializedFrom": ""
         }, 
         "ocean": {
@@ -61,6 +67,9 @@
         "land": {
             "initializedFrom": "cmip5:miroc5"
         }, 
+        "landice": {
+            "initializedFrom": ""
+        }, 
         "ocean": {
             "initializedFrom": "cmip5:miroc5"
         }, 
@@ -81,6 +90,9 @@
         "land": {
             "initializedFrom": ""
         }, 
+        "landice": {
+            "initializedFrom": ""
+        }, 
         "seaice": {
             "initializedFrom": ""
         }
@@ -96,6 +108,9 @@
             "initializedFrom": ""
         }, 
         "land": {
+            "initializedFrom": ""
+        }, 
+        "landice": {
             "initializedFrom": ""
         }, 
         "seaice": {
@@ -115,6 +130,9 @@
         "land": {
             "initializedFrom": ""
         }, 
+        "landice": {
+            "initializedFrom": ""
+        }, 
         "seaice": {
             "initializedFrom": ""
         }
@@ -130,6 +148,9 @@
             "initializedFrom": ""
         }, 
         "land": {
+            "initializedFrom": ""
+        }, 
+        "landice": {
             "initializedFrom": ""
         }, 
         "seaice": {
