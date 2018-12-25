@@ -53,7 +53,7 @@
             "publish": "off"
         }, 
         "aerosol": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
             "publish": "off"
