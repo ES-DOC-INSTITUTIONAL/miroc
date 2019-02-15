@@ -56,7 +56,7 @@
             "publish": "on"
         }, 
         "atmos": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "land": {
             "publish": "on"
