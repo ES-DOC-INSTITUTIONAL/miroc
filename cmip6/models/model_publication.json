@@ -7,7 +7,7 @@
             "publish": "off"
         }, 
         "atmos": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmoschem": {
             "publish": "on"
@@ -33,7 +33,7 @@
             "publish": "off"
         }, 
         "atmos": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "land": {
             "publish": "off"
