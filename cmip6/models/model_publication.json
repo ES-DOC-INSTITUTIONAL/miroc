@@ -121,13 +121,13 @@
     }, 
     "nicam16-9s": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "aerosol": {
             "publish": "off"
         }, 
         "atmos": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "land": {
             "publish": "off"
