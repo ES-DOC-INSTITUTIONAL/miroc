@@ -42,7 +42,7 @@
             "publish": "off"
         }, 
         "ocnbgchem": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "seaice": {
             "publish": "off"
