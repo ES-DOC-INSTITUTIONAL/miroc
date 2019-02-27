@@ -130,7 +130,7 @@
             "publish": "on"
         }, 
         "land": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "seaice": {
             "publish": "off"
