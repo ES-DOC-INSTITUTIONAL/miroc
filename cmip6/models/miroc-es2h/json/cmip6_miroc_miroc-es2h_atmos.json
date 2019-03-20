@@ -1,0 +1,74 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "miroc", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "miroc-es2h", 
+    "topic": "atmos", 
+    "content": {
+        "cmip6.atmos.key_properties.name": {
+            "values": [
+                "MIROC-AGCM"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.keywords": {
+            "values": [
+                "MIROC, AGCM, spectral dynamical core, parameterizations"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.overview": {
+            "values": [
+                "MIROC-AGCM is the atmospheric component of a climate model, the Model for Interdisciplinary Research on Climate version 6 (MIROC6). The MIROC-AGCM employs a spectral dynamical core, and standard physical parameterizations for cumulus convections, radiative transfer, cloud microphysics, turbulence, and gravity wave drag. It also has an aerosol module. The model is cooperatively developed by the Japanese modeling community including the Atmosphere and Ocean Research Institute, the University of Tokyo, the Japan Agency for Marine-Earth Science and Technology, and the National Institute for Environmental Studies."
+            ]
+        }, 
+        "cmip6.atmos.key_properties.model_family": {
+            "values": [
+                "AGCM"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.basic_approximations": {
+            "values": [
+                "Primitive equations"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.horizontal_resolution_name": {
+            "values": [
+                "T85"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "1.4 x 1.4 degrees lat-lon"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.range_horizontal_resolution": {
+            "values": [
+                "1.4 deg globally"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.number_of_vertical_levels": {
+            "values": [
+                81
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.high_top": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_dynamics": {
+            "values": [
+                360
+            ]
+        }, 
+        "cmip6.atmos.key_properties.orography.type": {
+            "values": [
+                "Fixed"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.tuning_applied.description": {
+            "values": [
+                "MIROC-AGCM is coupled with the land surface and the sea ice-ocean components before the tuning under the pre-industrial boundary conditions. In the first model tuning step, climatology, seasonal progression, and internal climate variability in the tropical coupled system are tuned in order that departures from observations or reanalysis datasets are reduced. Representation of the tropical system in MIROC-ES2H is sensitive to the parameters for cumulus convection and planetary boundary layer processes. Next, the wintertime mid-latitude westerly jets and the stationary waves in the troposphere are tuned using the parameters of the orographic gravity wave drag and the hyper diffusion of momentum. The parameters of the hyper diffusion and the non-orographic gravity wave drag are also used when tuning stratospheric circulations of the polar vortex and QBO. Finally, the radiation budget at the TOA is tuned, primarily using the parameters for the auto-conversion process. The surface albedos for bare sea-ice and snow-covered sea-ice are set to higher values than in observations in order to avoid underestimating of the summertime sea-ice extent in the Arctic Ocean due to excess downward shortwave radiation in this region. In addition, parameter tuning for cooling effects due to interactions between anthropogenic aerosol emissions and cloud-radiative processes are done. In order that the cooling effects can be closer to the estimate of -0.9 W/m^2 (IPCC, 2013; negative value indicates cooling) with an uncertainty range of -1.9 to -0.1 W/m^2, parameters of cloud microphysics and the aerosol transport module are perturbed."
+            ]
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
     "mipEra": "cmip6", 
     "institute": "miroc", 
-    "seedingSource": null, 
+    "seedingSource": "Spreadsheet", 
     "sourceID": "nicam16-7s", 
     "topic": "toplevel", 
     "content": {
