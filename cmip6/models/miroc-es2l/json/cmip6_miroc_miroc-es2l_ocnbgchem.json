@@ -22,12 +22,12 @@
         }, 
         "cmip6.ocnbgchem.key_properties.model_type": {
             "values": [
-                "NPZD"
+                "NPZD: No plankton types"
             ]
         }, 
         "cmip6.ocnbgchem.key_properties.elemental_stoichiometry": {
             "values": [
-                "Fixed"
+                "Fixed: Fixed stoichiometry"
             ]
         }, 
         "cmip6.ocnbgchem.key_properties.elemental_stoichiometry_details": {

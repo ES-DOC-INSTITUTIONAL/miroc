@@ -22,7 +22,7 @@
         }, 
         "cmip6.atmos.key_properties.model_family": {
             "values": [
-                "AGCM"
+                "AGCM: Atmospheric General Circulation Model"
             ]
         }, 
         "cmip6.atmos.key_properties.basic_approximations": {

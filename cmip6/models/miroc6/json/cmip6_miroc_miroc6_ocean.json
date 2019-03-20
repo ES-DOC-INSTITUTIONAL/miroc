@@ -34,7 +34,7 @@
         "cmip6.ocean.key_properties.prognostic_variables": {
             "values": [
                 "Potential temperature", 
-                "SSH", 
+                "SSH: Sea Surface Height", 
                 "Salinity", 
                 "U-velocity", 
                 "V-velocity"
@@ -204,7 +204,7 @@
         }, 
         "cmip6.ocean.timestepping_framework.diurnal_cycle": {
             "values": [
-                "Via coupling"
+                "Via coupling: Diurnal cycle via coupling frequency"
             ]
         }, 
         "cmip6.ocean.timestepping_framework.tracers.scheme": {
@@ -289,7 +289,7 @@
         }, 
         "cmip6.ocean.lateral_physics.scheme": {
             "values": [
-                "None"
+                "None: No transient eddies in ocean"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.direction": {
@@ -299,12 +299,12 @@
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.order": {
             "values": [
-                "Harmonic"
+                "Harmonic: Second order"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.discretisation": {
             "values": [
-                "Second order"
+                "Second order: Second order"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type": {
@@ -344,12 +344,12 @@
         }, 
         "cmip6.ocean.lateral_physics.tracers.operator.order": {
             "values": [
-                "Harmonic"
+                "Harmonic: Second order"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.operator.discretisation": {
             "values": [
-                "Second order"
+                "Second order: Second order"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.type": {
@@ -374,7 +374,7 @@
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
             "values": [
-                "GM"
+                "GM: Gent & McWilliams"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.constant_val": {

@@ -22,7 +22,7 @@
         }, 
         "cmip6.atmos.key_properties.model_family": {
             "values": [
-                "AGCM"
+                "AGCM: Atmospheric General Circulation Model"
             ]
         }, 
         "cmip6.atmos.key_properties.basic_approximations": {
@@ -466,7 +466,7 @@
         }, 
         "cmip6.atmos.natural_forcing.solar_pathways.pathways": {
             "values": [
-                "SW radiation"
+                "SW radiation: Shortwave solar spectral irradiance."
             ]
         }, 
         "cmip6.atmos.natural_forcing.solar_constant.type": {

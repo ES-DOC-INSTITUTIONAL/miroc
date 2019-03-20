@@ -28,7 +28,7 @@
                 "Sea ice v-velocity", 
                 "Sea ice enthalpy", 
                 "Internal ice stress", 
-                "Snow depth"
+                "Snow depth: Snow on ice thickness"
             ]
         }, 
         "cmip6.seaice.key_properties.seawater_properties.ocean_freezing_point": {
@@ -129,7 +129,7 @@
         }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid": {
             "values": [
-                "Ocean grid"
+                "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
             ]
         }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid_type": {
