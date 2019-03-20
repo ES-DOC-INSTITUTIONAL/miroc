@@ -2,26 +2,33 @@
     "mipEra": "cmip6", 
     "institute": "miroc", 
     "seedingSource": "Spreadsheet", 
-    "sourceID": "miroc6", 
+    "sourceID": "miroc-es2l", 
     "topic": "land", 
     "content": {
         "cmip6.land.key_properties.name": {
             "values": [
-                "MATSIRO6"
+                "VISIT-e (Biogeochemistry) & MATSIRO6 (Physics and biophysics)"
             ]
         }, 
         "cmip6.land.key_properties.keywords": {
             "values": [
-                "land surface model, big leaf model, multi-layer snow scheme, TOPMODEL-based approach"
+                "biogeochemistry, carbon cycle, nitrogen cycle, dry-matter-reproduction, Monsi-Saeki model, land-use change, land surface model, big leaf model, multi-layer snow scheme, TOPMODEL-based approach"
+            ]
+        }, 
+        "cmip6.land.key_properties.overview": {
+            "values": [
+                "The model for land ecosystem/biogeochemistry component introduced into MIROC-ES2L is the Vegetation Integrative SImulator for Trace gases model extended for ESM (VISIT-e). This model simulates carbon and nitrogen dynamics on land interactively, with exchanging variables between the land physics and atmosphere component. LUC impact on biogeochemistry is simulated in this component, based on schemes that are newly designed for CMIP6 exercises.\nMinimal Advanced Treatments of Surface Interaction and Runoff (MATSIRO6) is a land model that consists of six soil layers, up to three snow layers, and a single canopy layer, and predicts the temperature and amount of water in the canopy, soil and snow. It is basically the same as the previous version of MATSIRO, but a physically-based parameterization of sub-grid snow distribution and a snow-derived wetland with consideration of sub-grid terrain complexity are incorporated."
             ]
         }, 
         "cmip6.land.key_properties.description": {
             "values": [
-                "Surface energy balance, radiative transfer in canopy, stomatal resistance, canopy interception, snow hydrology, prognostic snow albedo, runoff generation, soil hydrology and soil temperature."
+                "Land biogeochemistry: carbon cycle, nitrogen cycle, land-use change impact on biogeochemistry, agricultural treatment (harvesting, fertilizer, grazing pressure), N leaching into river-ocean, dynamics of leaf area index, geographically static vegetation distribution.\nLand physics and biophysics: surface energy balance, radiative transfer in canopy, stomatal resistance, canopy interception, snow hydrology, prognostic snow albedo, runoff generation, soil hydrology and soil temperature."
             ]
         }, 
         "cmip6.land.key_properties.land_atmosphere_flux_exchanges": {
             "values": [
+                "Carbon", 
+                "Nitrogen", 
                 "Water", 
                 "Energy", 
                 "Other"
@@ -34,20 +41,20 @@
         }, 
         "cmip6.land.key_properties.land_cover": {
             "values": [
+                "Vegetated", 
                 "Land ice", 
                 "Bare soil", 
-                "Lake", 
-                "Vegetated"
+                "Lake"
             ]
         }, 
         "cmip6.land.key_properties.land_cover_change": {
             "values": [
-                "Net transition between potential vegetation cover and cropland is considered."
+                "For biogeochemistry, gross transition between 5 LUC categories (see below) is considered; for physics, net transition between potential vegetation cover and cropland is considered."
             ]
         }, 
         "cmip6.land.key_properties.tiling": {
             "values": [
-                "Each land grid has three tiles: potential vegetation, cropland, and lake. The potential vegetation and cropland tiles are divided into two areas with and without snow cover. The lake is also divided into ice-covered and open water areas. The land surface fluxes are calculated in each area and averaged, weighted by their fractions. The land/sea fraction is considered."
+                "For biogeochemistry, grids are sub-divided into 5 types of tiles: primary vegetation, secondary vegetation, urban, crop, and pasture. Crop and pasture tiles furtherly have sub-categories (normal/N-fixing crop, and pasture/rangeland, respectively).\nFor physics, each land grid has three tiles: potential vegetation, cropland, and lake. The potential vegetation and cropland tiles are divided into two areas with and without snow cover. The lake is also divided into ice-covered and open water areas. The land surface fluxes are calculated in each area and averaged, weighted by their fractions. The land/sea fraction is considered."
             ]
         }, 
         "cmip6.land.key_properties.conservation_properties.energy": {
@@ -62,7 +69,7 @@
         }, 
         "cmip6.land.key_properties.conservation_properties.carbon": {
             "values": [
-                "N/A"
+                "Carbon is conserved globally except for land ice grids."
             ]
         }, 
         "cmip6.land.key_properties.timestepping_framework.timestep_dependent_on_atmosphere": {
@@ -77,17 +84,22 @@
         }, 
         "cmip6.land.key_properties.timestepping_framework.timestepping_method": {
             "values": [
-                "Variable atmosphere time step and 3600 seconds are used for flux calculation and land integration, respectively"
+                "Variable atmosphere time step and 3600 seconds, and 1 day are used for flux calculation, land physics integration, and land biogeochemistry, respectively"
+            ]
+        }, 
+        "cmip6.land.key_properties.software_properties.code_version": {
+            "values": [
+                "abe2fa1221de"
             ]
         }, 
         "cmip6.land.key_properties.software_properties.code_languages": {
             "values": [
-                "FORTRAN"
+                "C and FORTRAN"
             ]
         }, 
         "cmip6.land.grid.overview": {
             "values": [
-                "Atmosphere horizontal grid is used for the land model."
+                "Atmosphere horizontal grid is used for the land models."
             ]
         }, 
         "cmip6.land.grid.horizontal.description": {
@@ -102,12 +114,12 @@
         }, 
         "cmip6.land.grid.vertical.description": {
             "values": [
-                "Soil has six layers with a thickness of 0.05, 0.2, 0.75, 1, 2, and 10 m."
+                "Soil has six layers with a thickness of 0.05, 0.2, 0.75, 1, 2, and 10 m for water and energy transfer."
             ]
         }, 
         "cmip6.land.soil.overview": {
             "values": [
-                "The soil parameterization includes soil hydrology, soil temperature prediction, and TOPMODEL-based runoff parameterization with six soil layers. The soil parameters depend on soil texture from ISLSCP I."
+                "The soil parameterization includes soil hydrology, soil temperature prediction, and TOPMODEL-based runoff parameterization with six soil layers. The soil parameters depend on soil texture from ISLSCP I. For biogeochemistry, soil is structured as upper (0-10cm) and lower (10-200cm)."
             ]
         }, 
         "cmip6.land.soil.heat_water_coupling": {
@@ -122,22 +134,22 @@
         }, 
         "cmip6.land.soil.prognostic_variables": {
             "values": [
-                "Soil temperature, Soil moisture, Soil ice content"
+                "Soil temperature, Soil moisture, Soil ice content, litter and soil carbon, litter, humus, microbe, and inorganic nitrogen"
             ]
         }, 
         "cmip6.land.soil.soil_map.description": {
             "values": [
-                "The soil texture map based on ISLSCP Initiative I is used."
+                "The soil texture map based on ISLSCP Initiative I is used. For biogeochemistry, field capacity and bulkdensity refer to IGBP soil data, and HWSD is used for soil texture."
             ]
         }, 
         "cmip6.land.soil.soil_map.structure": {
             "values": [
-                "ISLSCP Initiative I (FAO, GISS, U. Arizona, NASA/GSFC)"
+                "ISLSCP Initiative I (FAO, GISS, U. Arizona, NASA/GSFC); Global Gridded Surfaces of Selected Soil Characteristics (IGBP-DIS)"
             ]
         }, 
         "cmip6.land.soil.soil_map.texture": {
             "values": [
-                "ISLSCP Initiative I (FAO, GISS, U. Arizona, NASA/GSFC)"
+                "ISLSCP Initiative I (FAO, GISS, U. Arizona, NASA/GSFC); Wieder, W.R., J. Boehnert, G.B. Bonan, and M. Langseth. 2014. Regridded Harmonized World Soil Database v1.2. Data set. Available on-line [http://daac.ornl.gov] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1247"
             ]
         }, 
         "cmip6.land.soil.soil_map.organic_matter": {
@@ -335,9 +347,14 @@
                 "Prognostic"
             ]
         }, 
+        "cmip6.land.vegetation.name": {
+            "values": [
+                "VISIT-e and MATSIRO6"
+            ]
+        }, 
         "cmip6.land.vegetation.overview": {
             "values": [
-                "Monthly leaf area index from MODIS is used to represent vegetation phenology. Stomatal Resistance from SiB2 based photosynthesis scheme is used to calculate transpiration. Canopy interception is considered."
+                "Leaf area is simulated by the biogeochemical component. Stomatal Resistance from SiB2 based photosynthesis scheme is used to calculate transpiration. Canopy interception is considered."
             ]
         }, 
         "cmip6.land.vegetation.dynamic_vegetation": {
@@ -347,12 +364,12 @@
         }, 
         "cmip6.land.vegetation.tiling": {
             "values": [
-                "Tiling of potential vegetaion cover and cropland is considered."
+                "Physics: potential vegetaion cover and cropland\nBiogeochemistry: primary vegetation, secondary vegetation, urban, crop, and pasture"
             ]
         }, 
         "cmip6.land.vegetation.vegetation_representation": {
             "values": [
-                "Vegetation types"
+                "Other"
             ]
         }, 
         "cmip6.land.vegetation.vegetation_types": {
@@ -374,7 +391,9 @@
                 "Wooded grassland", 
                 "Open shrubland", 
                 "Other", 
-                "Grassland"
+                "Grassland", 
+                "Closed shrubland", 
+                "Cropland"
             ]
         }, 
         "cmip6.land.vegetation.vegetation_time_variation": {
@@ -384,7 +403,7 @@
         }, 
         "cmip6.land.vegetation.vegetation_map": {
             "values": [
-                "Watanabe_2010"
+                "Watanabe_2010 and MODIS Land Cover Type product (MCD12Q1)"
             ]
         }, 
         "cmip6.land.vegetation.interception": {
@@ -399,27 +418,27 @@
         }, 
         "cmip6.land.vegetation.phenology_description": {
             "values": [
-                "Monthly leaf area index for cropland and potential vegetation cover is derived from MODIS LAI (Myneni et al., 2015) and land cover type (Friedl et al., 2010)."
+                "Controlled by LAI phenology"
             ]
         }, 
         "cmip6.land.vegetation.leaf_area_index": {
             "values": [
-                "Prescribed"
+                "Prognostic"
             ]
         }, 
         "cmip6.land.vegetation.leaf_area_index_description": {
             "values": [
-                "Monthly leaf area index for cropland and potential vegetation cover is derived from MODIS LAI (Myneni et al., 2015) and land cover type (Friedl et al., 2010)."
+                "LAI and the phenology are controlled by the biogeochemical component."
             ]
         }, 
         "cmip6.land.vegetation.biomass": {
             "values": [
-                "Other"
+                "Prognostic"
             ]
         }, 
         "cmip6.land.vegetation.biomass_description": {
             "values": [
-                "N/A"
+                "Biomass is simulated by the biogeochemical component, but only used for biogeochemistry except for LAI dynamics."
             ]
         }, 
         "cmip6.land.vegetation.biogeography": {
@@ -429,7 +448,7 @@
         }, 
         "cmip6.land.vegetation.biogeography_description": {
             "values": [
-                "N/A"
+                "Static vegetation distribution"
             ]
         }, 
         "cmip6.land.vegetation.stomatal_resistance": {
@@ -467,97 +486,112 @@
         }, 
         "cmip6.land.carbon_cycle.name": {
             "values": [
-                "SiB2"
+                "VISIT-e"
             ]
         }, 
         "cmip6.land.carbon_cycle.overview": {
             "values": [
-                "Diagnose CO2 flux associated with photosynthesis and leaf respiration"
+                "The model for land ecosystem/biogeochemistry component introduced into MIROC-ES2L is the Vegetation Integrative SImulator for Trace gases model extended for ESM (VISIT-e). This model simulates carbon and nitrogen dynamics on land interactively, with exchanging variables between the land physics and atmosphere component. LUC impact on biogeochemistry is simulated in this component, based on schemes that are newly designed for CMIP6 exercises."
             ]
         }, 
         "cmip6.land.carbon_cycle.tiling": {
             "values": [
-                "N/A"
+                "Primary vegetation, secondary vegetation, urban, crop(normal crop and N-fixing crop), and pasture(pasture and rangeland)."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.time_step": {
+            "values": [
+                86400
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.anthropogenic_carbon": {
+            "values": [
+                "Other"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.prognostic_variables": {
+            "values": [
+                "Leaf, stem, root, foliage/stem/root litters, active/intermediate/passive humus, three anthoropogenic pools"
             ]
         }, 
         "cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools": {
             "values": [
-                0
+                3
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.carbon_pools": {
+            "values": [
+                "Leaf, stem, root for upper canopy and forest floor vegetations (prognostic); other diagnostic carbon pools"
             ]
         }, 
         "cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics": {
             "values": [
-                "N/A"
+                "Treated as \"big-leaf\" model"
             ]
         }, 
         "cmip6.land.carbon_cycle.vegetation.photosynthesis.method": {
             "values": [
-                "SiB2 (Sellers et al 1996). Different parameters for C3 and C4 grasses according to ISLSCP 1."
+                "Based on Monsi-Saeki theory, and the photosynthetic capacity depends on leaf nitrogen concentration. Canopy photosynthesis is analytically integrated. "
             ]
         }, 
         "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration": {
             "values": [
-                "SiB2 (Sellers et al 1996)"
+                "Depends on: specific respiration rate, the size of each c pool, and air temperature with modified Q10 function."
             ]
         }, 
         "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration": {
             "values": [
-                "N/A"
+                "Construction cost is proportional to biomass growth."
             ]
         }, 
         "cmip6.land.carbon_cycle.vegetation.allocation.method": {
             "values": [
-                "N/A"
+                "The allocation of photosynthate between carbon pools in vegetation (leaf, stem, root) is dynamically regulated following phenological stages."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_fractions": {
+            "values": [
+                "Other"
             ]
         }, 
         "cmip6.land.carbon_cycle.vegetation.phenology.method": {
             "values": [
-                "Prescribed LAI"
+                "Dependent on growing degree days and cumulative coldness for temperature-regulated plant categories, and land water condition for rain-regulated plant categories."
             ]
         }, 
         "cmip6.land.carbon_cycle.vegetation.mortality.method": {
             "values": [
-                "N/A"
+                "Fixed mortality rate"
             ]
         }, 
         "cmip6.land.carbon_cycle.litter.number_of_carbon_pools": {
             "values": [
-                0
+                3
             ]
         }, 
         "cmip6.land.carbon_cycle.litter.carbon_pools": {
             "values": [
-                "N/A"
+                "Leaf, stem, and root litters"
             ]
         }, 
         "cmip6.land.carbon_cycle.litter.decomposition": {
             "values": [
-                "N/A"
-            ]
-        }, 
-        "cmip6.land.carbon_cycle.litter.method": {
-            "values": [
-                "N/A"
+                "Temperature dependency based on Lloyd & Taylor (1994) and soil moisture effect"
             ]
         }, 
         "cmip6.land.carbon_cycle.soil.number_of_carbon_pools": {
             "values": [
-                0
+                3
             ]
         }, 
         "cmip6.land.carbon_cycle.soil.carbon_pools": {
             "values": [
-                "N/A"
+                "Active, intermediate, and passive humus"
             ]
         }, 
         "cmip6.land.carbon_cycle.soil.decomposition": {
             "values": [
-                "N/A"
-            ]
-        }, 
-        "cmip6.land.carbon_cycle.soil.method": {
-            "values": [
-                "N/A"
+                "Temperature dependency based on Lloyd & Taylor (1994) and soil moisture effect"
             ]
         }, 
         "cmip6.land.carbon_cycle.permafrost_carbon.is_permafrost_included": {
@@ -567,137 +601,32 @@
         }, 
         "cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases": {
             "values": [
-                "N/A"
+                "CO2"
             ]
         }, 
         "cmip6.land.carbon_cycle.permafrost_carbon.decomposition": {
             "values": [
-                "N/A"
+                "Temperature dependency based on Lloyd & Taylor (1994) and soil moisture effect"
             ]
         }, 
         "cmip6.land.nitrogen_cycle.name": {
             "values": [
-                "N/A"
+                "VISIT-e"
             ]
         }, 
-        "cmip6.land.river_routing.name": {
+        "cmip6.land.nitrogen_cycle.overview": {
             "values": [
-                "TRIP2"
+                "The model for land ecosystem/biogeochemistry component introduced into MIROC-ES2L is the Vegetation Integrative SImulator for Trace gases model extended for ESM (VISIT-e). This model simulates carbon and nitrogen dynamics on land interactively, with exchanging variables between the land physics and atmosphere component. LUC impact on biogeochemistry is simulated in this component, based on schemes that are newly designed for CMIP6 exercises."
             ]
         }, 
-        "cmip6.land.river_routing.overview": {
+        "cmip6.land.nitrogen_cycle.tiling": {
             "values": [
-                "The river routing model is TRIP2 which is based on Oki and Sud (1998) with a kinematic wave flow equation (Ngo-Duc et al 2007). It is the same as the model for CMIP5, but the river network map is updated (Yamazaki et al., 2009)."
+                "Primary vegetation, secondary vegetation, urban, crop(normal crop and N-fixing crop), and pasture(pasture and rangeland). N fertilizer is applied to crop tile, and additional N fixing is included following areal fraction of N-fixing crop."
             ]
         }, 
-        "cmip6.land.river_routing.tiling": {
+        "cmip6.land.nitrogen_cycle.time_step": {
             "values": [
-                "River discharge and ice flow are considered."
-            ]
-        }, 
-        "cmip6.land.river_routing.time_step": {
-            "values": [
-                3600
-            ]
-        }, 
-        "cmip6.land.river_routing.grid_inherited_from_land_surface": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.land.river_routing.grid_description": {
-            "values": [
-                "The grid is inherited from land surface"
-            ]
-        }, 
-        "cmip6.land.river_routing.number_of_reservoirs": {
-            "values": [
-                2
-            ]
-        }, 
-        "cmip6.land.river_routing.coupled_to_atmosphere": {
-            "values": [
-                false
-            ]
-        }, 
-        "cmip6.land.river_routing.coupled_to_land": {
-            "values": [
-                "Runoff from all land tiles averaged with their fractions flows into rivers."
-            ]
-        }, 
-        "cmip6.land.river_routing.basin_flow_direction_map": {
-            "values": [
-                "Present day"
-            ]
-        }, 
-        "cmip6.land.river_routing.flooding": {
-            "values": [
-                "N/A"
-            ]
-        }, 
-        "cmip6.land.river_routing.prognostic_variables": {
-            "values": [
-                "River water storage"
-            ]
-        }, 
-        "cmip6.land.river_routing.oceanic_discharge.discharge_type": {
-            "values": [
-                "Direct (large rivers)"
-            ]
-        }, 
-        "cmip6.land.lakes.overview": {
-            "values": [
-                "The lake model considers vertical thermal diffusion and mass conservation. It is the same as the previous version of the model used for CMIP5."
-            ]
-        }, 
-        "cmip6.land.lakes.coupling_with_rivers": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.land.lakes.time_step": {
-            "values": [
-                3600
-            ]
-        }, 
-        "cmip6.land.lakes.quantities_exchanged_with_rivers": {
-            "values": [
-                "Water"
-            ]
-        }, 
-        "cmip6.land.lakes.vertical_grid": {
-            "values": [
-                "Lake has five layers with a variable thickness depending on lake level."
-            ]
-        }, 
-        "cmip6.land.lakes.prognostic_variables": {
-            "values": [
-                "Lake temperature, Lake salinity, Lake ice surface temperature, Lake ice concentration, Lake ice thickness, Lake snow thickness, Lake level"
-            ]
-        }, 
-        "cmip6.land.lakes.method.ice_treatment": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.land.lakes.method.albedo": {
-            "values": [
-                "Diagnostic"
-            ]
-        }, 
-        "cmip6.land.lakes.method.dynamics": {
-            "values": [
-                "Vertical"
-            ]
-        }, 
-        "cmip6.land.lakes.method.dynamic_lake_extent": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.land.lakes.method.endorheic_basins": {
-            "values": [
-                true
+                86400
             ]
         }
     }

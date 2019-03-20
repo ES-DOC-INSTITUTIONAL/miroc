@@ -1,0 +1,270 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "miroc", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "miroc6", 
+    "topic": "aerosol", 
+    "content": {
+        "cmip6.aerosol.key_properties.name": {
+            "values": [
+                "SPRINTARS"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.keywords": {
+            "values": [
+                "aerosol transport,aerosol-radiation interaction,aerosol-cloud interaction"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.overview": {
+            "values": [
+                "Spectral Radiation-Transport Model for Aerosol Species (SPRINTARS) predicts mass mixing ratios of the main tropospheric aerosols which are black carbon (BC), organic matter (OM), sulfate, soil dust, and sea salt, and the precursor gases of sulfate (sulfur dioxide and dimethylsulfide). SPRINTARS calculates not only the aerosol transport processes of emission, advection, diffusion, sulfur chemistry, wet deposition, dry deposition, and gravitational settling, but also the aerosol-radiation and aerosol-cloud interactions by coupled with the radiation and cloud-precipitation schemes in MIROC. See sections on model description in Takemura (2018, http://www.cger.nies.go.jp/publications/report/i138/i138.pdf) for furtther details."
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.scheme_scope": {
+            "values": [
+                "Troposphere", 
+                "Stratosphere"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.basic_approximations": {
+            "values": [
+                "?"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.prognostic_variables_form": {
+            "values": [
+                "3D mass/volume ratio for aerosols"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.number_of_tracers": {
+            "values": [
+                19
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.family_approach": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.method": {
+            "values": [
+                "Uses atmospheric chemistry time stepping"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.integrated_timestep": {
+            "values": [
+                600
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.integrated_scheme_type": {
+            "values": [
+                "Other"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.name": {
+            "values": [
+                "T85L81h"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.is_adaptive_grid": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.description": {
+            "values": [
+                "Observational data on mass concentration of each aerosol comonent and aerosol optical thickness from satellite and in-situ are mainly used to tune the aerosol model. The aerosol radiative frocing which can simulated observed trend of the surface air temperature is also focued as a climate model."
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "radiative forcing"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "aerosol optical thickness,mass concentration,\u00c5ngstr\u00f6m exponent,aerosol single scattering albedo"
+            ]
+        }, 
+        "cmip6.aerosol.grid.matches_atmosphere_grid": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.name": {
+            "values": [
+                "T85L81h"
+            ]
+        }, 
+        "cmip6.aerosol.transport.scheme": {
+            "values": [
+                "Specific transport scheme (semi-lagrangian)"
+            ]
+        }, 
+        "cmip6.aerosol.transport.mass_conservation_scheme": {
+            "values": [
+                "Uses atmospheric chemistry transport scheme"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.method": {
+            "values": [
+                "Prescribed (climatology)", 
+                "Prescribed CMIP6", 
+                "Interactive", 
+                "Interactive above surface"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.sources": {
+            "values": [
+                "Vegetation", 
+                "Volcanos", 
+                "Bare ground", 
+                "Sea surface", 
+                "Fires", 
+                "Aircraft", 
+                "Anthropogenic"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.prescribed_climatology": {
+            "values": [
+                "Constant"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.interactive_emitted_species": {
+            "values": [
+                "soil dust,sea salt,DMS"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.absorption.black_carbon": {
+            "values": [
+                3.097
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.absorption.organics": {
+            "values": [
+                0.1347
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.external": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.internal": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.mixing_rule": {
+            "values": [
+                "A half of BC/OC from anthropogenic sources is internally mixed and the others are externally mixed."
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.size": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.internal_mixture": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.external_mixture": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.overview": {
+            "values": [
+                "The radiative process in MIROC is based on the two-stream discrete ordinate/adding method (Nakajima et al., 2000, doi:10.1364/AO.39.004869). In the radiation scheme, extinction and mass coefficients, asymmetry factor and truncation factor in each band are calculated for aerosols and clouds. The aerosol optical parameters are calculated according to the Mie theory and volume-weighted refractive indices with water for the internal mixture. The wavelength-dependent refractive indices are according to WCP-55 (1983, \"Report of the experts meeting on aerosols and their climatic effects\") for aerosols and d'Almeida et al. (1991, \"Atmospheric Aerosols: Global Climatology and Radiative Characteristics\") for water. See section 2.2 in Takemura (2018, http://www.cger.nies.go.jp/publications/report/i138/i138.pdf) for furtther details."
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.shortwave_bands": {
+            "values": [
+                15
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.longwave_bands": {
+            "values": [
+                14
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.overview": {
+            "values": [
+                "A parameterization based on the K\u00f6hler theory is introduced for water cloud (Ghan et al., 1997, doi:10.1029/97JD01810; Abdul-Razzak and Ghan, 2000, doi:10.1029/1999JD901161). The cloud droplet effective radius related with the Twomey effect is calculated depending on the prognostic cloud droplet number concentration and cloud water mixing ratio. The Berry's parameterization is adopted for the autoconversion process. The ice crystal number concetration is also treated as a prognostic variable. The homogeneous and heterogeneous freezings are based on K\u00e4rcher and Lohmann (2002, doi:10.1029/2001JD000470) and Lohmann and Diehl (2006, doi:10.1175/JAS3662.1), respectively. See section 3.2 in Takemura (2018, http://www.cger.nies.go.jp/publications/report/i138/i138.pdf) for furtther details."
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.twomey": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.twomey_minimum_ccn": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.drizzle": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.cloud_lifetime": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.model.name": {
+            "values": [
+                "SPRINTARS"
+            ]
+        }, 
+        "cmip6.aerosol.model.overview": {
+            "values": [
+                "Spectral Radiation-Transport Model for Aerosol Species (SPRINTARS) predicts mass mixing ratios of the main tropospheric aerosols which are black carbon (BC), organic matter (OM), sulfate, soil dust, and sea salt, and the precursor gases of sulfate (sulfur dioxide and dimethylsulfide). SPRINTARS calculates not only the aerosol transport processes of emission, advection, diffusion, sulfur chemistry, wet deposition, dry deposition, and gravitational settling, but also the aerosol-radiation and aerosol-cloud interactions by coupled with the radiation and cloud-precipitation schemes in MIROC. See sections on model description in Takemura (2018, http://www.cger.nies.go.jp/publications/report/i138/i138.pdf) for furtther details."
+            ]
+        }, 
+        "cmip6.aerosol.model.processes": {
+            "values": [
+                "Dry deposition", 
+                "Sedimentation", 
+                "Wet deposition (impaction scavenging)", 
+                "Wet deposition (nucleation scavenging)", 
+                "Oxidation (gas phase)", 
+                "Oxidation (in cloud)", 
+                "Advection (horizontal)", 
+                "Advection (vertical)"
+            ]
+        }, 
+        "cmip6.aerosol.model.coupling": {
+            "values": [
+                "Radiation", 
+                "Land surface", 
+                "Clouds", 
+                "Ocean", 
+                "Cryosphere", 
+                "Gas phase chemistry"
+            ]
+        }, 
+        "cmip6.aerosol.model.gas_phase_precursors": {
+            "values": [
+                "DMS", 
+                "SO2", 
+                "Terpene", 
+                "Isoprene"
+            ]
+        }, 
+        "cmip6.aerosol.model.scheme_type": {
+            "values": [
+                "Bulk", 
+                "Bin"
+            ]
+        }
+    }
+}
