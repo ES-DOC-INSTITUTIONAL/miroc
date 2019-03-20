@@ -1,23 +1,13 @@
 {
     "mipEra": "cmip6", 
     "institute": "miroc", 
-    "seedingSource": "Spreadsheet", 
+    "seedingSource": null, 
     "sourceID": "miroc6", 
     "topic": "ocean", 
     "content": {
         "cmip6.ocean.key_properties.name": {
             "values": [
-                "COCO4.9"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.keywords": {
-            "values": [
-                "Primitive equation, hydrostatic, Boussinesq, explicit free surface, tripolar grid, sigma-z hybrid, embedded sea-ice component"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.overview": {
-            "values": [
-                "COCO is an ice-ocean coupled model which can be used as a stand-alone model or an ice-ocean component of MIROC. It has been developed in Atmosphere and Ocean Research Institute (AORI), The University of Tokyo, and Japan Agency for Marine-Earth Science and Technology (JAMSTEC).  The oceanic part of COCO is based on the primitive equations under the hydrostatic and Boussinesq approximations with the explicit free surface and is formulated on the generalized curvilinear horizontal coordinate and the geopotential height vertical coordinate with optional sigma coordinate near the surface."
+                "Ocean"
             ]
         }, 
         "cmip6.ocean.key_properties.model_family": {
@@ -42,37 +32,12 @@
         }, 
         "cmip6.ocean.key_properties.seawater_properties.eos_type": {
             "values": [
-                "Mc Dougall et al."
-            ]
-        }, 
-        "cmip6.ocean.key_properties.seawater_properties.eos_functional_temp": {
-            "values": [
-                "Potential temperature"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.seawater_properties.eos_functional_salt": {
-            "values": [
-                "Practical salinity Sp"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.seawater_properties.eos_functional_depth": {
-            "values": [
-                "Depth (meters)"
+                "Other: mcdougall et al."
             ]
         }, 
         "cmip6.ocean.key_properties.seawater_properties.ocean_freezing_point": {
             "values": [
-                "Other"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.seawater_properties.ocean_specific_heat": {
-            "values": [
-                3990
-            ]
-        }, 
-        "cmip6.ocean.key_properties.seawater_properties.ocean_reference_density": {
-            "values": [
-                1000
+                "Other: varying"
             ]
         }, 
         "cmip6.ocean.key_properties.bathymetry.reference_dates": {
@@ -85,181 +50,24 @@
                 true
             ]
         }, 
-        "cmip6.ocean.key_properties.bathymetry.ocean_smoothing": {
-            "values": [
-                "Averaging when converting the original data (ETOPO1) into the model bathymetry. Editing some important seawater pathways, small islands, and small merginal seas."
-            ]
-        }, 
-        "cmip6.ocean.key_properties.bathymetry.source": {
-            "values": [
-                "ETOPO1"
-            ]
-        }, 
         "cmip6.ocean.key_properties.nonoceanic_waters.isolated_seas": {
             "values": [
-                "The Mediterranean Sea is isolated and exchange water/heat/salt with the Atlantic Ocean as a form of diffusive flux. The Red Sea is treated as land in OGCM but 1-d mixed layer model in the land component."
-            ]
-        }, 
-        "cmip6.ocean.key_properties.nonoceanic_waters.river_mouth": {
-            "values": [
-                "No specific treatment: put river discharge into the uppermost layer of the river mouth grid."
-            ]
-        }, 
-        "cmip6.ocean.key_properties.software_properties.repository": {
-            "values": [
-                "internal repository"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.software_properties.code_version": {
-            "values": [
-                4.9
-            ]
-        }, 
-        "cmip6.ocean.key_properties.software_properties.code_languages": {
-            "values": [
-                "Fortran 90"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.resolution.name": {
-            "values": [
-                "COCO medium resolution model"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.resolution.canonical_horizontal_resolution": {
-            "values": [
-                "1 degree"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.resolution.range_horizontal_resolution": {
-            "values": [
-                "0.5 degree - 1 degree"
-            ]
-        }, 
-        "cmip6.ocean.key_properties.resolution.number_of_horizontal_gridpoints": {
-            "values": [
-                92160
-            ]
-        }, 
-        "cmip6.ocean.key_properties.resolution.number_of_vertical_levels": {
-            "values": [
-                63
-            ]
-        }, 
-        "cmip6.ocean.key_properties.resolution.is_adaptive_grid": {
-            "values": [
-                false
-            ]
-        }, 
-        "cmip6.ocean.key_properties.resolution.thickness_level_1": {
-            "values": [
-                2
-            ]
-        }, 
-        "cmip6.ocean.key_properties.tuning_applied.description": {
-            "values": [
-                "Our main target is to reproduce reasonable THC (in particular AMOC) strength and volume transport across some key starits/pathways. In addition, we also checked T/S fields in orde to avoid unrealistic long-term trends. We mainly modified ocean bathmetry rather than parameter-level tuning to retain these metrics."
-            ]
-        }, 
-        "cmip6.ocean.key_properties.conservation.description": {
-            "values": [
-                "We have checked changes of the properties which should be conserved are in the range of numerical error by calculating the difference of these properties by using multiple snapshots of the modeled ocean. "
-            ]
-        }, 
-        "cmip6.ocean.key_properties.conservation.scheme": {
-            "values": [
-                "Salt", 
-                "Volume of ocean", 
-                "Other"
-            ]
-        }, 
-        "cmip6.ocean.grid.name": {
-            "values": [
-                "COCO medium resolution model"
-            ]
-        }, 
-        "cmip6.ocean.grid.discretisation.vertical.coordinates": {
-            "values": [
-                "Hybrid / Z+S"
-            ]
-        }, 
-        "cmip6.ocean.grid.discretisation.vertical.partial_steps": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocean.grid.discretisation.horizontal.type": {
-            "values": [
-                "Two north poles (ORCA-style)"
-            ]
-        }, 
-        "cmip6.ocean.grid.discretisation.horizontal.staggering": {
-            "values": [
-                "Arakawa B-grid"
-            ]
-        }, 
-        "cmip6.ocean.timestepping_framework.name": {
-            "values": [
-                "Staggard timestepping"
-            ]
-        }, 
-        "cmip6.ocean.timestepping_framework.diurnal_cycle": {
-            "values": [
-                "Via coupling"
+                "Yes"
             ]
         }, 
         "cmip6.ocean.timestepping_framework.tracers.scheme": {
             "values": [
-                "Other"
-            ]
-        }, 
-        "cmip6.ocean.timestepping_framework.tracers.time_step": {
-            "values": [
-                1200
-            ]
-        }, 
-        "cmip6.ocean.timestepping_framework.baroclinic_dynamics.type": {
-            "values": [
-                "Other"
-            ]
-        }, 
-        "cmip6.ocean.timestepping_framework.baroclinic_dynamics.scheme": {
-            "values": [
-                "Other"
-            ]
-        }, 
-        "cmip6.ocean.timestepping_framework.baroclinic_dynamics.time_step": {
-            "values": [
-                1200
-            ]
-        }, 
-        "cmip6.ocean.timestepping_framework.barotropic.splitting": {
-            "values": [
-                "Split explicit"
-            ]
-        }, 
-        "cmip6.ocean.timestepping_framework.barotropic.time_step": {
-            "values": [
-                20
+                "Forward-backward"
             ]
         }, 
         "cmip6.ocean.advection.momentum.type": {
             "values": [
-                "Flux form"
+                "Vector form"
             ]
         }, 
         "cmip6.ocean.advection.momentum.scheme_name": {
             "values": [
-                "centered-in-space differencing scheme"
-            ]
-        }, 
-        "cmip6.ocean.advection.momentum.ALE": {
-            "values": [
-                false
-            ]
-        }, 
-        "cmip6.ocean.advection.lateral_tracers.order": {
-            "values": [
-                4
+                "Second-order, energy-preserving"
             ]
         }, 
         "cmip6.ocean.advection.lateral_tracers.flux_limiter": {
@@ -267,29 +75,14 @@
                 true
             ]
         }, 
-        "cmip6.ocean.advection.lateral_tracers.effective_order": {
-            "values": [
-                1
-            ]
-        }, 
         "cmip6.ocean.advection.lateral_tracers.name": {
             "values": [
                 "Prather 2nd moment (PSOM)"
             ]
         }, 
-        "cmip6.ocean.advection.lateral_tracers.passive_tracers": {
-            "values": [
-                "Ideal age"
-            ]
-        }, 
         "cmip6.ocean.advection.vertical_tracers.name": {
             "values": [
                 "Prather 2nd moment (PSOM)"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.scheme": {
-            "values": [
-                "None"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.direction": {
@@ -314,27 +107,12 @@
         }, 
         "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.variable_coefficient": {
             "values": [
-                "depending on horizontal grid size"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_background": {
-            "values": [
-                "1.7e3 -- 2.3e4, space varying"
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_backscatter": {
-            "values": [
-                false
+                "Latitude"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.mesoscale_closure": {
             "values": [
                 true
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.tracers.submesoscale_mixing": {
-            "values": [
-                false
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.operator.direction": {
@@ -349,27 +127,22 @@
         }, 
         "cmip6.ocean.lateral_physics.tracers.operator.discretisation": {
             "values": [
-                "Second order"
+                "Other: flux limited"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.type": {
             "values": [
-                "Constant"
+                "Space varying"
             ]
         }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.constant_coefficient": {
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.variable_coefficient": {
             "values": [
-                1000
+                "Latitude"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.coeff_background": {
             "values": [
-                100
-            ]
-        }, 
-        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.coeff_backscatter": {
-            "values": [
-                false
+                1000
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
@@ -387,39 +160,24 @@
                 "Skew flux"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.details.langmuir_cells_mixing": {
-            "values": [
-                false
-            ]
-        }, 
         "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.type": {
             "values": [
-                "Turbulent closure - Mellor-Yamada"
-            ]
-        }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.closure_order": {
-            "values": [
-                2.5
+                "Turbulent closure - TKE"
             ]
         }, 
         "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.background": {
             "values": [
-                "Tsujino et al. (2000) type III"
+                "Tsujino type"
             ]
         }, 
         "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.type": {
             "values": [
-                "Turbulent closure - Mellor-Yamada"
-            ]
-        }, 
-        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.closure_order": {
-            "values": [
-                2.5
+                "Turbulent closure - TKE"
             ]
         }, 
         "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.background": {
             "values": [
-                0.0001
+                "1e-4 [m^2/s]"
             ]
         }, 
         "cmip6.ocean.vertical_physics.interior_mixing.details.convection_type": {
@@ -427,94 +185,29 @@
                 "Non-penetrative convective adjustment"
             ]
         }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.details.tide_induced_mixing": {
-            "values": [
-                "none"
-            ]
-        }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.details.double_diffusion": {
-            "values": [
-                false
-            ]
-        }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.details.shear_mixing": {
-            "values": [
-                false
-            ]
-        }, 
         "cmip6.ocean.vertical_physics.interior_mixing.tracers.type": {
             "values": [
-                "Other"
-            ]
-        }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.tracers.profile": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.tracers.background": {
-            "values": [
-                "Tsujino et al. (2000) type III"
+                "Other: constant values"
             ]
         }, 
         "cmip6.ocean.vertical_physics.interior_mixing.momentum.type": {
             "values": [
-                "Constant value"
-            ]
-        }, 
-        "cmip6.ocean.vertical_physics.interior_mixing.momentum.profile": {
-            "values": [
-                false
+                "Other: constant values"
             ]
         }, 
         "cmip6.ocean.uplow_boundaries.free_surface.scheme": {
             "values": [
-                "Other"
-            ]
-        }, 
-        "cmip6.ocean.uplow_boundaries.free_surface.embeded_seaice": {
-            "values": [
-                false
-            ]
-        }, 
-        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.overview": {
-            "values": [
-                "Nakano and Suginohara (2002) bottom boundary layer scheme is applied. Following this paper, it is applied at high latitudes, to the north of 49N and to the south of 56S.\n"
+                "Other: linear split-explicit"
             ]
         }, 
         "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl": {
             "values": [
-                "Acvective"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.surface_pressure": {
-            "values": [
-                "Nothing specific"
+                "Other: advective"
             ]
         }, 
         "cmip6.ocean.boundary_forcing.momentum_flux_correction": {
             "values": [
-                "When calculating the bulk coefficient of momentum flux, minimum wind speed is applied."
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers_flux_correction": {
-            "values": [
-                "When calculating the bulk coefficient of tracer fluxes, minimum wind speed is applied."
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.wave_effects": {
-            "values": [
-                "Nothing specific."
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.river_runoff_budget": {
-            "values": [
-                "Apply river routing model (CaMa-Flood)."
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.geothermal_heating": {
-            "values": [
-                "Not applied."
+                "No"
             ]
         }, 
         "cmip6.ocean.boundary_forcing.momentum.bottom_friction.type": {
@@ -527,34 +220,9 @@
                 "No-slip"
             ]
         }, 
-        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.scheme": {
-            "values": [
-                "2 extinction depth"
-            ]
-        }, 
         "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.ocean_colour": {
             "values": [
-                false
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.extinction_depth_description": {
-            "values": [
-                "RADDN = RRR * EXP(- DEPTH / ZETA1) + (1.D0 - RRR) * EXP(- DEPTH / ZETA2), where RRR=0.58, ZETA1=0.35, ZETA2=23. unit:[m]"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.extinction_depths": {
-            "values": [
-                "0.35 m, 23 m"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.from_atmopshere": {
-            "values": [
-                "Freshwater flux"
-            ]
-        }, 
-        "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.from_sea_ice": {
-            "values": [
-                "Other"
+                true
             ]
         }
     }
