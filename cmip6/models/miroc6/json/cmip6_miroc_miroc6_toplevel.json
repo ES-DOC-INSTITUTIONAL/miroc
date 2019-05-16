@@ -12,12 +12,283 @@
         }, 
         "cmip6.toplevel.key_properties.keywords": {
             "values": [
-                "Coupled model"
+                "CCSR-AGCM, SPRINTARS, COCO, MATSIRO, atmosphere, aerosol, sea-ice ocean, land surface"
             ]
         }, 
         "cmip6.toplevel.key_properties.overview": {
             "values": [
-                "Coupled model developed by MIROC, incl. JAMSTEC, AORI, NIES, R-CCS, and others."
+                "MIROC6 is a physical climate model mainly composed of three sub-models: atmosphere, land, and sea ice-ocean. The atmospheric model is based on the CCSR-NIES atmospheric general circulation model. The horizontal resolution is a T85 spectral truncation that is an approximately 1.4\u00b0 grid interval for both latitude and longitude. The vertical grid coordinate is a hybrid \u03c3-p coordinate. The model top is placed at 0.004 hPa, and there are 81 vertical levels. The Spectral Radiation-Transport Model for Aerosol Species (SPRINTARS) is used as an aerosol module for MIROC6 to predict the mass mixing ratios of the main tropospheric aerosols. By coupling the radiation and cloud-precipitation schemes, SPRINTARS calculates not only the aerosol transport processes but also the aerosol-radiation and aerosol-cloud interactions.The land surface model is based on Minimal Advanced Treatments of Surface Interaction and Runoff (MATSIRO), which includes a river routing model based on a kinematic wave flow equation and a lake module where one-dimensional thermal diffusion and mass conservation are considered. The horizontal resolution of the land surface model is the same as that of the atmopheric component. There are a three-layers snow and a six-layers soil down to a 14 m depth.The sea ice-ocean model is based on the CCSR Ocean Component model (COCO). The tripolar horizontal coordinate system is adopted, and the longitudinal grid spacing is 1\u00b0 and the meridional grid spacing varies from about 0.5\u00b0 near the equator to 1\u00b0 in the mid-latitudes. There are 62 vertical levels in a hybrid \u03c3-z coordinate system. A coupler system calculates heat and freshwater fluxes between the sub-models in order to ensure that all fluxes are conserved within machine precision and then exchanges the fluxes among the sub-models. No flux adjustments are used in MIROC6."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.flux_correction.details": {
+            "values": [
+                "No flux corrections are applied in this model."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.year_released": {
+            "values": [
+                2018
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP3_parent": {
+            "values": [
+                "MIROC3m"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_parent": {
+            "values": [
+                "MIROC5"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_differences": {
+            "values": [
+                "Major changes from MIROC5, which was our official model for the CMIP5, to MIROC6 are mainly done in the atmospheric component. These include implementation of a parameterization of shallow convective processes, the higher model top and vertical resolution in the stratosphere. The ocean and land-surface components have been also updated in terms of the horizontal grid coordinate system and higher vertical resolution in the former, and parameterizations for sub-grid scale snow distribution and wet lands due to snow-melting water in the latter."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.previous_name": {
+            "values": [
+                "MIROC5"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.repository": {
+            "values": [
+                "Shared repository on a server at Japan Agency for Marine-Earth Science and Technology"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_version": {
+            "values": [
+                "fe6402342aec"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_languages": {
+            "values": [
+                "Basically FORTRAN77 but partially FORTRAN90 and C"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.components_structure": {
+            "values": [
+                "The atmoshperic component and the ocean component are executed separately with a multiprogram-multiple data application.  Note that a executable binary of the land surface component is included that of the atmospheric component. These submodels  are coupled with time interval of 1 hour."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.coupler": {
+            "values": [
+                "Other: Original couplers: A coupler system calculates heat and freshwater fluxes between the sub-models in order to ensure that all fluxes are conserved within machine precision and then exchanges the fluxes among the sub-models. Details are described in Suzuki et al. (2009)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_double_flux": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_fluxes_calculation_grid": {
+            "values": [
+                "Specific coupler grid"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_relative_winds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.description": {
+            "values": [
+                "In the first model tuning step, climatology, seasonal progression, and internal climate variability in the tropical coupled system are tuned in order that departures from observations or reanalysis datasets are reduced. Specifically, parameters of reference height for cumulus precipitation, efficiency of the cumulus entrainment of surrounding environment and maximum cumulus updraft velocity at the cumulus base are used to tune strength of the equatorial trade wind, climatological position and intensity of the Inter-Tropical Convergence Zone and South Pacific Convergence Zone, and interannual variability of El-Ni\u00f1o/Southern Oscillation. Summertime precipitation in the western tropical Pacific and characteristic of tropical intraseasonal oscillations are tuned by using the parameter for shallow convection describing the partitioning of turbulent kinetic energy between horizontal and vertical motions at the sub-cloud layer inversion. Next, the wintertime mid-latitude westerly jets and the stationary waves in the troposphere are tuned using the parameters of the orographic gravity wave drag and the hyper diffusion of momentum. The parameters of the hyper diffusion and the non-orographic gravity wave drag are also used when tuning stratospheric circulations of the polar vortex and Quasi Biennial Oscilation. Finally, the radiation budget at the TOA is tuned, primarily using the parameters for the auto-conversion process so that excess downward radiation can be minimized and maintained closer to 0.0 Wm-2. In addition, parameter tuning for the total radiative forcing associated with aerosol-radiation and aerosol-cloud interactions is done. In order that the total radiative forcing can be closer to the estimate of -0.9 Wm-2 (IPCC, 2013; negative value indicates cooling), parameters of cloud microphysics and the aerosol transport module, such as timescale for cloud droplet nucleation, in-cloud properties of aerosol removal by precipitation, and minimum threshold of number concentration of cloud droplets, are perturbed. To determine a suitable parameter set, several pairs of a present-day run under the anthropogenic aerosol emissions at the year 2000 and a pre-industrial run are conducted. A pair of the present and preindustrial runs has exactly the same parameters, and differences of tropospheric radiations between two runs are considered as anthropogenic radiative forcing."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "TOA radiation budget, radiative forcing, sea ice area"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "tropical precipiation, mid-latitude jets, ENSO amplitude, THC"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "HadCRU"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.energy_balance": {
+            "values": [
+                "The radiation budget at the TOA is tuned at the components coupling state."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance": {
+            "values": [
+                "Any tuninigs were done for fresh water balance."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.global": {
+            "values": [
+                "Atmospheric heat is not conserved perffectly.  The heat energy inconsistency is due to that internal energy associated with precipitation, water vapor and river runoff is not taken account in the atmospheric and land surface component in MIROC6."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface": {
+            "values": [
+                "Heat flux is conserved during coupling procedures."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface": {
+            "values": [
+                "Heat flux is conserved during coupling procedures."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface": {
+            "values": [
+                "Heat flux is conserved during coupling procedures."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface": {
+            "values": [
+                "Heat is conserved during coupling procedures."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface": {
+            "values": [
+                "Temperature of river water is not considered thus there is no heat exchange between the land and the ocean."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.global": {
+            "values": [
+                "Freshwater and salt are conserved."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface": {
+            "values": [
+                "Freshwater flux is conserved during coupling procedures."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface": {
+            "values": [
+                "Freshwater flux is conserved during coupling procedures."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface": {
+            "values": [
+                "Freshwater flux is conserved during coupling procedures."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface": {
+            "values": [
+                "Freshwater flux is conserved during coupling procedures."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving": {
+            "values": [
+                "NA"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface": {
+            "values": [
+                "Salt is conserved during coupling procedures."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.name": {
+            "values": [
+                "MSTRNX"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.overview": {
+            "values": [
+                "Greenhouse gases: CO2, CH4, N2O, Trop O3, Strat O3\nAerosols: SO4, BC, OC, dust, volcanic, sea salt, land use, solar\nCloud albedo efffect : YES\nCloud lifetime effect: YES"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.equivalence_concentration": {
+            "values": [
+                "Option 1"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.SO4.provision": {
+            "values": [
+                "M", 
+                "E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information": {
+            "values": [
+                "DMS emission is diagnosed, and SO2 emission derived from biomass burning is prescribed."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
+            "values": [
+                "E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
+            "values": [
+                "E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
+            "values": [
+                "Y"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.provision": {
+            "values": [
+                "E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.provision": {
+            "values": [
+                "E"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.RFaci_from_sulfate_only": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.provision": {
+            "values": [
+                "M"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.provision": {
+            "values": [
+                "C"
             ]
         }
     }

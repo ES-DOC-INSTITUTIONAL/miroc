@@ -24,7 +24,7 @@
             "values": [
                 "Water", 
                 "Energy", 
-                "Other"
+                "Other: Dust and BC"
             ]
         }, 
         "cmip6.land.key_properties.atmospheric_coupling_treatment": {
@@ -47,7 +47,7 @@
         }, 
         "cmip6.land.key_properties.tiling": {
             "values": [
-                "Each land grid has three tiles: potential vegetation, cropland, and lake. The potential vegetation and cropland tiles are divided into two areas with and without snow cover. The lake is also divided into ice-covered and open water areas. The land surface fluxes are calculated in each area and averaged, weighted by their fractions. The land/sea fraction is considered."
+                "Each land grid has three tiles: potential vegetation, cropland, and lake. We use annual potential vegetation and cropland fractions from Land-Use Harmonization (LUH2); managed pasture, C3 annual crops, C3 perennial crops, C4 annual crops, C4 perennial crops and C3 nitrogen-fixing crops are categorized as cropland.The potential vegetation and cropland tiles are divided into two areas with and without snow cover. The lake is also divided into ice-covered and open water areas. The land surface fluxes are calculated in each area and averaged, weighted by their fractions. The land/sea fraction is considered."
             ]
         }, 
         "cmip6.land.key_properties.conservation_properties.energy": {
@@ -212,7 +212,7 @@
         }, 
         "cmip6.land.soil.hydrology.lateral_connectivity": {
             "values": [
-                "Other"
+                "Other: No connectivity"
             ]
         }, 
         "cmip6.land.soil.hydrology.method": {
@@ -309,7 +309,7 @@
         }, 
         "cmip6.land.snow.liquid_water_content": {
             "values": [
-                "Other"
+                "Other: N/A"
             ]
         }, 
         "cmip6.land.snow.snow_cover_fractions": {
@@ -373,7 +373,7 @@
                 "Deciduous needleleaf forest", 
                 "Wooded grassland", 
                 "Open shrubland", 
-                "Other", 
+                "Other: Tundra", 
                 "Grassland"
             ]
         }, 
@@ -394,7 +394,7 @@
         }, 
         "cmip6.land.vegetation.phenology": {
             "values": [
-                "Other"
+                "Other: Prescribed"
             ]
         }, 
         "cmip6.land.vegetation.phenology_description": {
@@ -414,7 +414,7 @@
         }, 
         "cmip6.land.vegetation.biomass": {
             "values": [
-                "Other"
+                "Other: N/A"
             ]
         }, 
         "cmip6.land.vegetation.biomass_description": {
@@ -424,7 +424,7 @@
         }, 
         "cmip6.land.vegetation.biogeography": {
             "values": [
-                "Other"
+                "Other: N/A"
             ]
         }, 
         "cmip6.land.vegetation.biogeography_description": {
@@ -462,7 +462,7 @@
         }, 
         "cmip6.land.energy_balance.evaporation": {
             "values": [
-                "Other"
+                "Other: Alpha for soil evaporation, Beta for transpiration"
             ]
         }, 
         "cmip6.land.carbon_cycle.name": {
