@@ -1,0 +1,304 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "miroc", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "NAGOYA-Univ.", 
+            "name": "\nDivision of Earth and Environmental Sciences,\nGraduate School of Environmental Studies, Nagoya University", 
+            "is_organisation": false, 
+            "address_postal": "Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan", 
+            "address_email": null, 
+            "url": "http://has.env.nagoya-u.ac.jp/english/index.html", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "ITO-AKIHIKO", 
+            "name": "Akihiko Ito", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": null, 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Noda", 
+            "name": "Akira T. Noda", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "a_noda@jamstec.go.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Kodama", 
+            "name": "Chihiro Kodama", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "kodamac@jamstec.go.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "YAMAZAKI-DAI", 
+            "name": "Dai Yamazaki", 
+            "is_organisation": false, 
+            "address_postal": "The University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo 153-8505, Japan", 
+            "address_email": "yamadai@rainbow.iis.u-tokyo.ac.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "TATEBE-H", 
+            "name": "Hiroaki Tatebe", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa, 236-0001 Japan", 
+            "address_email": "tatebe@jamstec.go.jp", 
+            "url": "http://www.jamstec.go.jp/adcm/e/", 
+            "orcid": "http://orcid.org/0000-0002-2265-5847"
+        }, 
+        {
+            "mnemonic": "Yashiro", 
+            "name": "Hisashi Yashiro", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "h.yashiro@riken.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "YOSHIMURA-KEI", 
+            "name": "Kei Yoshimura", 
+            "is_organisation": false, 
+            "address_postal": "The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba, 277-8574, Japan", 
+            "address_email": "kei@iis.u-tokyo.ac.jp", 
+            "url": null, 
+            "orcid": "0000-0002-5761-1561"
+        }, 
+        {
+            "mnemonic": "Sudo-Kengo", 
+            "name": "Kengo Sudo", 
+            "is_organisation": false, 
+            "address_postal": "Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan", 
+            "address_email": "kengo@nagoya-u.jp", 
+            "url": "http://chaser.has.env.nagoya-u.ac.jp/aecm/", 
+            "orcid": "https://orcid.org/0000-0002-5013-4168"
+        }, 
+        {
+            "mnemonic": "OGOCHI-K", 
+            "name": "Koji Ogochi", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
+            "address_email": "ogochi@jamstec.go.jp", 
+            "url": "http://www.jamstec.go.jp/adcm/e/", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "TAKATA-KUMIKO", 
+            "name": "Kumiko Takata", 
+            "is_organisation": false, 
+            "address_postal": "National Institute for Environmental Studies, 16-2 Onogawa, Tsukuba, Ibaraki, 305-8506, Japan", 
+            "address_email": "takata.kumiko@nies.go.jp", 
+            "url": null, 
+            "orcid": "0000-0003-4622-8927"
+        }, 
+        {
+            "mnemonic": "TAKATA-KUMIKO", 
+            "name": "Kumiko Takata", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": null, 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "WATANABE-HIRO", 
+            "name": "Masahiro Watanabe", 
+            "is_organisation": false, 
+            "address_postal": "Atmosphere and Ocean Research Institude, the University of Tokyo\n5-1-5, Kashiwanoha, Kashiwa-shi, Chiba 277-8568, Japan", 
+            "address_email": "hiro@aori.u-tokyo.ac.jp", 
+            "url": "http://ccsr.aori.u-tokyo.ac.jp/index-e.html", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Satoh", 
+            "name": "Masaki Satoh", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "satoh@aori.u-tokyo.ac.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Sugi", 
+            "name": "Masato Sugi", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "msugi@mri-jma.go.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Nakano", 
+            "name": "Masuo Nakano", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "masuo@jamstec.go.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "MIROC6", 
+            "name": "MIROC6", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\nAtmosphere and Ocean Research Institude, the University of Tokyo\nNational Institute for Environmental Studies\n\n", 
+            "address_email": null, 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "OISHI-RYOUTA", 
+            "name": "Ryouta O'ishi", 
+            "is_organisation": false, 
+            "address_postal": "The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba, 277-8574, Japan", 
+            "address_email": "ryo@aori.u-tokyo.ac.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Seiki", 
+            "name": "Tatsuya Seiki", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "tseiki@jamstec.go.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Nasuno", 
+            "name": "Tomoe Nasuno", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "nasuno@jamstec.go.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "HAJIMA-TOMOHIRO", 
+            "name": "Tomohiro Hajima", 
+            "is_organisation": false, 
+            "address_postal": "236-0001, Japan Agency for Marine-Earth Science and Technology", 
+            "address_email": "hajima@jamstec.go.jp", 
+            "url": "http://www.jamstec.go.jp/souran/html/Tomohiro_Hajima002673-e.html", 
+            "orcid": "https://orcid.org/0000-0002-4828-5100"
+        }, 
+        {
+            "mnemonic": "Miyakawa", 
+            "name": "Tomoki Miyakawa", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "miyakawa@aori.u-tokyo.ac.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Ohno", 
+            "name": "Tomoki Ohno", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "t-ohno@jamstec.go.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "NITTA-TOMOKO", 
+            "name": "Tomoko Nitta", 
+            "is_organisation": false, 
+            "address_postal": "The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba, 277-8574, Japan", 
+            "address_email": "t-nitta@iis.u-tokyo.ac.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Nitta", 
+            "name": "Tomoko Nitta", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "t_nitta@aori.u-tokyo.ac.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "NITTA-T", 
+            "name": "Tomoko Nitta", 
+            "is_organisation": false, 
+            "address_postal": "Research Center for Advanced Science and Technology, University of Tokyo\n4-6-1 Komaba, Meguro-ku, Tokyo 153-8505, JAPAN ", 
+            "address_email": "t_nitta@aori.u-tokyo.ac.jp", 
+            "url": "http://hydro.iis.u-tokyo.ac.jp/", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "OGURA-T", 
+            "name": "Tomoo Ogura", 
+            "is_organisation": false, 
+            "address_postal": "National Institute for Environmental Studies\n16-2 Onogawa, Tsukuba, Ibaraki 305-8506, Japan", 
+            "address_email": "ogura@nies.go.jp", 
+            "url": "http://www.cger.nies.go.jp/en/", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "TTAKEMURA", 
+            "name": "Toshihiko Takemura", 
+            "is_organisation": false, 
+            "address_postal": "6-1 Kasuga-koen, Kasuga, Fukuoka 816-8580, Japan", 
+            "address_email": "toshi@riam.kyushu-u.ac.jp", 
+            "url": "https://sprintars.riam.kyushu-u.ac.jp/toshi/indexe.html", 
+            "orcid": "http://orcid.org/0000-0002-2859-6067"
+        }, 
+        {
+            "mnemonic": "TAKEMURA-T", 
+            "name": "Toshihiko Takemura", 
+            "is_organisation": false, 
+            "address_postal": "Research Institute for Applied Mechanics, Kyushu University\n6-1 Kasugakouen, Kasuga, Fukuoka 816-8580, Japan", 
+            "address_email": "toshi@riam.kyushu-u.ac.jp", 
+            "url": "https://www.riam.kyushu-u.ac.jp/climate/indexe.html", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Roh", 
+            "name": "Woosub Roh", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "ws-roh@aori.u-tokyo.ac.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Chen", 
+            "name": "Ying-Wen Chen", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "yingwen@aori.u-tokyo.ac.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Yamada", 
+            "name": "Yohei Yamada", 
+            "is_organisation": false, 
+            "address_postal": null, 
+            "address_email": "yoheiy@jamstec.go.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "KOMURO-Y", 
+            "name": "Yoshiki Komuro", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
+            "address_email": "komuro@jamstec.go.jp", 
+            "url": "http://www.jamstec.go.jp/iace/e/", 
+            "orcid": null
+        }
+    ]
+}
