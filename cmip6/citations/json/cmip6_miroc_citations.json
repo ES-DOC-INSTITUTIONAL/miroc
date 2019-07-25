@@ -1,0 +1,154 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "miroc", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "SPRINTARS_T", 
+            "doi": "10.1029/2000JD900265", 
+            "bibtex": "\"@article{\n  title = {Global three-dimensional simulation of aerosol optical thickness distribution of various origins},\n  journal = {Journal of Geophysical Research},\n  author = {Takemura, Toshihiko and Okamoto, Hajime and Maruyama, Yoshihiro and Numaguti, Atusi and Higurashi, Akiko and Nakajima, Teruyuki},\n  year = {2000},\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JD900265", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "SPRINTARS_R", 
+            "doi": "10.1175/1520-0442(2002)015<0333:SSAARF>2.0.CO;2", 
+            "bibtex": "\"@article{\n  title = {Single-scattering albedo and radiative forcing of various aerosol species with a global three-dimensional model},\n  journal = {Journal of Climate},\n  author = {Takemura, Toshihiko and Nakajima, Teruyuki and Dubovik, Oleg and Holben, Brent N. and Kinne, Stefan},\n  year = {2002},\n}\"", 
+            "url": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0442(2002)015%3C0333%3ASSAARF%3E2.0.CO;2", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "SPRINTARS_C", 
+            "doi": "10.1029/2004JD005029", 
+            "bibtex": "\"@article{\n  title = {Simulation of climate response to aerosol direct and indirect effects with aerosol transport-radiation model},\n  journal = {Journal of Geophysical Research},\n  author = {Takemura, Toshihiko and Nozawa, Toru and Emori, Seita and Nakajima, Takashi Y. and Nakajima, Teruyuki},\n  year = {2005},\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2004JD005029", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "SPRINTARS_M", 
+            "doi": "10.5194/acp-9-3061-2009", 
+            "bibtex": "\"@article{\n  title = {A simulation of the global distribution and radiative forcing of soil dust aerosols at the Last Glacial Maximum},\n  journal = {Atmospheric Chemistry and Physics},\n  author = {Takemura, Toshihiko and Egashira, Mio and Matsuzawa, Kanako and Ichijo, Hironori and O'ishi, Ryota and Abe-Ouchi, Ayako},\n  year = {2009},\n}\"", 
+            "url": "https://www.atmos-chem-phys.net/9/3061/2009/acp-9-3061-2009.html", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Akiyoshi_2009", 
+            "doi": "10.1029/2007JD009261", 
+            "bibtex": "\"@article{\n  title = {A  CCM  simulation  of  the  breakup of  the  Antarctic  polar  vortex  in  the  years  1980\u20132004  under  the  CCMVal  scenarios},\n  journal = {J. Geophys. Res.},\n  author = {Akiyoshi, H., Zhou, L. B., Yamashita, Y., Sakamoto, K., Yoshiki, M.,  Nagashima,  T.,  Takahashi,  M.,  Kurokawa,  J.,  Takigawa, M.,  and  Imamura,  T.},\n  year = {2009},\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JD009261", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Watanabe_2011", 
+            "doi": "10.5194/gmd-4-845-2011", 
+            "bibtex": "@Article{\nAUTHOR = {Watanabe, S. and Hajima, T. and Sudo, K. and Nagashima, T. and Takemura, T. and Okajima, H. and Nozawa, T. and Kawase, H. and Abe, M. and Yokohata, T. and Ise, T. and Sato, H. and Kato, E. and Takata, K. and Emori, S. and Kawamiya, M.},\nTITLE = {MIROC-ESM 2010: model description and basic results of CMIP5-20c3m experiments},\nJOURNAL = {Geoscientific Model Development},\nVOLUME = {4},\nYEAR = {2011},\nNUMBER = {4},\nPAGES = {845--872},\nURL = {https://www.geosci-model-dev.net/4/845/2011/},\nDOI = {10.5194/gmd-4-845-2011}\n}", 
+            "url": "https://www.geosci-model-dev.net/4/845/2011/gmd-4-845-2011.html", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Morgenstern_2017", 
+            "doi": "10.5194/gmd-4-845-2011", 
+            "bibtex": "@Article{gmd-10-639-2017,\nAUTHOR = {Morgenstern, O. and Hegglin, M. I. and Rozanov, E. and O'Connor, F. M. and Abraham, N. L. and Akiyoshi, H. and Archibald, A. T. and Bekki, S. and Butchart, N. and Chipperfield, M. P. and Deushi, M. and Dhomse, S. S. and Garcia, R. R. and Hardiman, S. C. and Horowitz, L. W. and J\\\"ockel, P. and Josse, B. and Kinnison, D. and Lin, M. and Mancini, E. and Manyin, M. E. and Marchand, M. and Mar\\'ecal, V. and Michou, M. and Oman, L. D. and Pitari, G. and Plummer, D. A. and Revell, L. E. and Saint-Martin, D. and Schofield, R. and Stenke, A. and Stone, K. and Sudo, K. and Tanaka, T. Y. and Tilmes, S. and Yamashita, Y. and Yoshida, K. and Zeng, G.},\nTITLE = {Review of the global models used within {phase 1 of} the Chemistry--Climate Model Initiative (CCMI)},\nJOURNAL = {Geoscientific Model Development},\nVOLUME = {10},\nYEAR = {2017},\nNUMBER = {2},\nPAGES = {639--671},\nURL = {https://www.geosci-model-dev.net/10/639/2017/},\nDOI = {10.5194/gmd-10-639-2017}\n}", 
+            "url": "https://www.geosci-model-dev.net/10/639/2017/", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Sudo_2002", 
+            "doi": "10.1029/2001JD001113", 
+            "bibtex": "\"@article{\n  title = {CHASER: A global chemical model of the troposphere 1. Model description},\n  journal = {J. Geophys. Res.},\n  author = {Sudo, K., M. Takahashi, J. Kurokawa, and H. Akimoto},\n  year = {2002},\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2001JD001113", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Ngo_Duc_2007", 
+            "doi": "10.5194/hessd-4-4389-2007", 
+            "bibtex": "@Article{\nAUTHOR = {Ngo-Duc, T. and Oki, T. and Kanae, S.},\nTITLE = {A variable streamflow velocity method for global river routing model: model description and preliminary results},\nJOURNAL = {Hydrology and Earth System Sciences Discussions},\nVOLUME = {4},\nYEAR = {2007},\nPAGES = {4389--4414},\n}", 
+            "url": "https://www.hydrol-earth-syst-sci-discuss.net/hessd-2007-0182/", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Nitta_2014", 
+            "doi": "10.1175/JCLI-D-13-00310.1", 
+            "bibtex": "@article{\nauthor = {Nitta, T. and Yoshimura, K. and Takata, K. and O\u2019ishi, R. and Sueyoshi, T. and Kanae, S. and Oki, T. and Abe-Ouchi, A. and Liston, G. E.},\ntitle = {Representing Variability in Subgrid Snow Cover and Snow Depth in a Global Land Model: Offline Validation},\njournal = {Journal of Climate},\nvolume = {27},\nnumber = {9},\npages = {3318-3330},\nyear = {2014},\n}", 
+            "url": "https://doi.org/10.1175/JCLI-D-13-00310.1", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Nitta_2017", 
+            "doi": "10.1175/JHM-D-16-0105.1", 
+            "bibtex": "@article{\nauthor = {Nitta, T. and Yoshimura, K. and Abe-Ouchi, A.},\ntitle = {Impact of Arctic Wetlands on the Climate System: Model Sensitivity Simulations with the MIROC5 AGCM and a Snow-Fed Wetland Scheme},\njournal = {Journal of Hydrometeorology},\nvolume = {18},\nnumber = {11},\npages = {2923-2936},\nyear = {2017},\n}\n", 
+            "url": "https://doi.org/10.1175/JHM-D-16-0105.1", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Oki_1998", 
+            "doi": "10.1175/1087-3562(1998)002<0001:DOTRIP>2.3.CO;2", 
+            "bibtex": "@article{\nauthor = {Oki, T. and Sud, Y. C.},\ntitle = {Design of Total Runoff Integrating Pathways (TRIP)\u2014A Global River Channel Network},\njournal = {Earth Interactions},\nvolume = {2},\nnumber = {1},\npages = {1-37},\nyear = {1998},\n}", 
+            "url": "https://doi.org/10.1175/1087-3562(1998)002<0001:DOTRIP>2.3.CO;2", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Takata_2003", 
+            "doi": "10.1016/S0921-8181(03)00030-4", 
+            "bibtex": "@article{\ntitle = {Development of the minimal advanced treatments of surface interaction and runoff},\njournal = {Global and Planetary Change},\nvolume = {38},\nnumber = {1},\npages = {209 - 222},\nyear = {2003},\nauthor = {Takata, K. and Emori, S. and Watanabe, T.},\n}", 
+            "url": "http://www.sciencedirect.com/science/article/pii/S0921818103000304", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Watanabe_1994", 
+            "doi": "10.1007/BF00712521", 
+            "bibtex": "@Article{\nauthor=\"Watanabe, T.\",\ntitle=\"Bulk parameterization for a vegetated surface and its application to a simulation of nocturnal drainage flow\",\njournal=\"Boundary-Layer Meteorology\",\nyear=\"1994\",\nvolume=\"70\",\nnumber=\"1\",\npages=\"13--35\",\n}\n", 
+            "url": "https://doi.org/10.1007/BF00712521", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Watanabe_1995", 
+            "doi": "10.2480/agrmet.51.57", 
+            "bibtex": "@article{\n  title={A Simple Model of Shortwave-Radiation Transport within Canopy},\n  author={Watanabe, T. and Ohtani, Y.},\n  journal={Journal of Agricultural Meteorology},\n  volume={51},\n  number={1},\n  pages={57-60},\n  year={1995},\n}", 
+            "url": "https://doi.org/10.2480/agrmet.51.57", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Yamazaki_2009", 
+            "doi": "10.5194/hess-13-2241-2009", 
+            "bibtex": "@Article{\nAUTHOR = {Yamazaki, D. and Oki, T. and Kanae, S.},\nTITLE = {Deriving a global river network map and its sub-grid topographic characteristics from a fine-resolution flow direction map},\nJOURNAL = {Hydrology and Earth System Sciences},\nVOLUME = {13},\nYEAR = {2009},\nNUMBER = {11},\nPAGES = {2241--2251},\n}", 
+            "url": "https://www.hydrol-earth-syst-sci.net/13/2241/2009/", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Watanabe_2010", 
+            "doi": "10.1175/2010JCLI3679.1", 
+            "bibtex": "@article{\nauthor = {Watanabe, Masahiro and Suzuki, Tatsuo and O\u2019ishi, Ryouta and Komuro, Yoshiki and Watanabe, Shingo and Emori, Seita and Takemura, Toshihiko and Chikira, Minoru and Ogura, Tomoo and Sekiguchi, Miho and Takata, Kumiko and Yamazaki, Dai and Yokohata, Tokuta and Nozawa, Toru and Hasumi, Hiroyasu and Tatebe, Hiroaki and Kimoto, Masahide},\ntitle = {Improved Climate Simulation by MIROC5: Mean States, Variability, and Climate Sensitivity},\njournal = {Journal of Climate},\nyear = {2010},\nvolume = {23},\nnumber = {23},\npages = {6312-6335},\n}\n", 
+            "url": "https://journals.ametsoc.org/doi/abs/10.1175/2010JCLI3679.1", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Hajima_in.prep", 
+            "doi": "Not yet available", 
+            "bibtex": "Not yet available", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Ito_2016", 
+            "doi": "10.1016/j.polar.2015.11.002", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Iti_Oikawa_2002", 
+            "doi": "10.1016/S0304-3800(01)00473-2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Ito_Inatomi_2012, Ito_2016, Ito_Oikawa_2002", 
+            "doi": "10.5194/bg-9-759-2012", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }
+    ]
+}
