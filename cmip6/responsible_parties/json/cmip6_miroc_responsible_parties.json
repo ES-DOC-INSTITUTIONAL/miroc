@@ -49,6 +49,24 @@
             "orcid": null
         }, 
         {
+            "mnemonic": "SAITO-F", 
+            "name": "Fuyuki Saito", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
+            "address_email": "saitofuyuki@jamstec.go.jp", 
+            "url": "http://www.jamstec.go.jp/souran/html/Fuyuki_Saito_13894-e.html", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "KANAI-H", 
+            "name": "Hiroaki Kanai", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
+            "address_email": null, 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
             "mnemonic": "TATEBE-H", 
             "name": "Hiroaki Tatebe", 
             "is_organisation": false, 
@@ -112,6 +130,33 @@
             "orcid": null
         }, 
         {
+            "mnemonic": "ABE-M", 
+            "name": "Manabu Abe", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
+            "address_email": "abemnb@jamstec.go.jp", 
+            "url": "http://www.jamstec.go.jp/souran/html/Manabu_Abe_46cf4-e.html", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "KIMOTO-M", 
+            "name": "Masahide Kimoto", 
+            "is_organisation": false, 
+            "address_postal": "Atmosphere and Ocean Research Institude, the University of Tokyo\n5-1-5, Kashiwanoha, Kashiwa-shi, Chiba 277-8568, Japan", 
+            "address_email": "kimoto@aori.u-tokyo.ac.jp", 
+            "url": "https://secure.eps.s.u-tokyo.ac.jp/en/member/index.php?_urid=1558&_lang=en", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "MIROC6", 
+            "name": "MIROC6", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\nAtmosphere and Ocean Research Institude, the University of Tokyo\nNational Institute for Environmental Studies\n\n", 
+            "address_email": null, 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
             "mnemonic": "WATANABE-HIRO", 
             "name": "Masahiro Watanabe", 
             "is_organisation": false, 
@@ -127,6 +172,24 @@
             "address_postal": null, 
             "address_email": "satoh@aori.u-tokyo.ac.jp", 
             "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "KUROGI-M", 
+            "name": "Masao Kurogi", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
+            "address_email": "m_kurogi@jamstec.go.jp", 
+            "url": "http://www.jamstec.go.jp/souran/html/Masao_Kurogi_c3519-e.html", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "MORI-M", 
+            "name": "Masato Mori", 
+            "is_organisation": false, 
+            "address_postal": "Research Center for Advanced Science and Technology, University of Tokyo\n4-6-1 Komaba, Meguro-ku, Tokyo 153-8904, JAPAN ", 
+            "address_email": "masato@atmos.rcast.u-tokyo.ac.jp", 
+            "url": "http://www.atmos.rcast.u-tokyo.ac.jp/masato/", 
             "orcid": null
         }, 
         {
@@ -148,12 +211,30 @@
             "orcid": null
         }, 
         {
-            "mnemonic": "MIROC6", 
-            "name": "MIROC6", 
+            "mnemonic": "SEKIGUCHI-M", 
+            "name": "Miho Sekiguchi", 
             "is_organisation": false, 
-            "address_postal": "Japan Agency for Marine-Earth Science and Technology\nAtmosphere and Ocean Research Institude, the University of Tokyo\nNational Institute for Environmental Studies\n\n", 
-            "address_email": null, 
-            "url": null, 
+            "address_postal": "Tokyo University of Marine Science and Technology\n2-1-6 Etchujima Koto-ku, Tokyo 135-8533, Japan", 
+            "address_email": "miho@kaiyodai.ac.jp", 
+            "url": "https://tumsatdb.kaiyodai.ac.jp/html/100000606_en.html", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "CHIKIRA-M", 
+            "name": "Minoru Chikira", 
+            "is_organisation": false, 
+            "address_postal": "Atmosphere and Ocean Research Institude, the University of Tokyo\n5-1-5, Kashiwanoha, Kashiwa-shi, Chiba 277-8568, Japan", 
+            "address_email": "chikira@aori.u-tokyo.ac.jp", 
+            "url": "https://www.aori.u-tokyo.ac.jp/english/staff/", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "HIROTA-N", 
+            "name": "Nagio Hirota", 
+            "is_organisation": false, 
+            "address_postal": "National Institute for Environmental Studies\n16-2 Onogawa, Tsukuba, Ibaraki 305-8506, Japan", 
+            "address_email": "hirota.nagio@nies.go.jp", 
+            "url": "https://www.nies.go.jp/researchers-e/300849.html", 
             "orcid": null
         }, 
         {
@@ -166,11 +247,56 @@
             "orcid": null
         }, 
         {
+            "mnemonic": "WATANABE-S", 
+            "name": "Shingo Watanabe", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
+            "address_email": "wnabe@jamstec.go.jp", 
+            "url": "http://www.jamstec.go.jp/souran/html/Shingo_Watanabe_7a12f-e.html", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "KATAOKA-T", 
+            "name": "Takahito Kataoka", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
+            "address_email": "tkataoka@jamstec.go.jp", 
+            "url": "http://www.jamstec.go.jp/souran/html/Takahito_Kataoka_2bf49-e.html", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "MOCHIZUKI-T", 
+            "name": "Takashi Mochizuki", 
+            "is_organisation": false, 
+            "address_postal": "Kyushu University\n744 Motooka, Nishi-ku, Fukuoka, 819-0395, Japan", 
+            "address_email": "mochizuki.takashi.817@m.kyushu-u.ac.jp", 
+            "url": "http://hyoka.ofc.kyushu-u.ac.jp/search/details/K007230/english.html", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "SUZUKI-T", 
+            "name": "Tatsuo Suzuki", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
+            "address_email": "tsuzuki@jamstec.go.jp", 
+            "url": "http://www.jamstec.go.jp/souran/html/Tatsuo_Suzuki_e7efa-e.html", 
+            "orcid": null
+        }, 
+        {
             "mnemonic": "Seiki", 
             "name": "Tatsuya Seiki", 
             "is_organisation": false, 
             "address_postal": null, 
             "address_email": "tseiki@jamstec.go.jp", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "NISHIMURA-T", 
+            "name": "Teruyuki Nishimura", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
+            "address_email": null, 
             "url": null, 
             "orcid": null
         }, 
@@ -298,6 +424,15 @@
             "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
             "address_email": "komuro@jamstec.go.jp", 
             "url": "http://www.jamstec.go.jp/iace/e/", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "KAWATANI-Y", 
+            "name": "Yoshio Kawatani", 
+            "is_organisation": false, 
+            "address_postal": "Japan Agency for Marine-Earth Science and Technology\n3173-25 Showamachi, Kanazawaku, Yokohama, Kanagawa 236-0001, Japan", 
+            "address_email": "yoskawatani@jamstec.go.jp", 
+            "url": "http://www.jamstec.go.jp/souran/html/Yoshio_Kawatani_5cc72-e.html", 
             "orcid": null
         }
     ]
