@@ -149,6 +149,111 @@
             "bibtex": null, 
             "url": null, 
             "long_name": null
+        }, 
+        {
+            "mnemonic": "Tatebe_2019", 
+            "doi": "10.5194/gmd-12-2727-2019", 
+            "bibtex": "\"@article{\nauthor = {Tatebe, Hiroaki and Ogura, Tomoo and Nitta, Tomoko and Komuro, Yoshiki and Ogochi, Koji and Takemura, Toshihiko and Sudo, Kengo and Sekiguchi, Miho and Abe, Manabu and Saito, Fuyuki and Chikira, Minoru and Watanabe, Shingo and Mori, Masato and Hirota, Nagio and Kawatani, Yoshio and Mochizuki, Takashi and Yoshimura, Kei and Takata, Kumiko and O'ishi, Ryouta and Yamazaki, Dai and Suzuki, Tatsuo and Kurogi, Masao and Kataoka, Takahito and Watanabe, Masahiro and Kimoto, Masahide},\ntitle = {Description and basic evaluation of simulated mean state, internal variability, and climate sensitivity in MIROC6},\njournal = {Geoscientific Model Development},\nyear = {2019},\nvolume = {12},\npages = {2727-2765},\n}\"\n", 
+            "url": "https://www.geosci-model-dev.net/12/2727/2019/gmd-12-2727-2019.html", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "K-1_2004", 
+            "doi": null, 
+            "bibtex": "\"@article{\nauthor = {K-1 model developers},\neditor = {Hiroyasu, Hasumi and Seita, Emori},\ntitle = {K-1 Coupled GCM (MIROC) Description},\njournal = {K-1 Technical Report},\nyear = {2004},\nvolume = {1},\npages = {1-34},\n}\"\n", 
+            "url": "https://ccsr.aori.u-tokyo.ac.jp/~hasumi/miroc_description.pdf", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Chikira_2010", 
+            "doi": "10.1175/2010JAS3316.1", 
+            "bibtex": "\"@article{\nauthor = {Chikira, Minoru and Sugiyama, Masahiro},\ntitle = {A cumulus parameterization with state-dependent entrainment rate. Part I: Description and sensitivity to temperature and humidity profiles},\njournal = {Journal of the atmospheric sciences},\nyear = {2010},\nvolume = {67},\npages = {2171-2193},\n}\"\n", 
+            "url": "https://journals.ametsoc.org/doi/full/10.1175/2010JAS3316.1", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Nakanishi_2001", 
+            "doi": "10.1023/A:1018915827400", 
+            "bibtex": "\"@article{\nauthor = {Nakanishi, Mikio},\ntitle = {Improvement of the Mellor-Yamada turbulence closure model based on Large-Eddy Simulation data},\njournal = {Boundary-Layer Meteorology},\nyear = {2001},\nvolume = {99},\npages = {349-378},\n}\"\n", 
+            "url": "https://link.springer.com/article/10.1023/A%3A1018915827400", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Nakanishi_2004", 
+            "doi": "10.1023/B:BOUN.0000020164.04146.98", 
+            "bibtex": "\"@article{\nauthor = {Nakanishi, Mikio and Niino, Hiroshi},\ntitle = {An improved Mellor-Yamada Level-3 model with condensation physics: its design and verification},\njournal = {Boundary-Layer Meteorology},\nyear = {2004},\nvolume = {112},\npages = {1-31},\n}\"\n", 
+            "url": "https://link.springer.com/article/10.1023/B%3ABOUN.0000020164.04146.98", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Park_2009", 
+            "doi": "10.1175/2008JCLI2557.1", 
+            "bibtex": "\"@article{\nauthor = {Park, Sungsu and Bretherton, Christopher  S.},\ntitle = {The University of Washington shallow convection and moist turbulence schemes and their impact on climate simulations with the Community Atmosphere Model},\njournal = {Journal of Climate},\nyear = {2009},\nvolume = {22},\npages = {3449-3469},\n}\"\n", 
+            "url": "https://journals.ametsoc.org/doi/full/10.1175/2008JCLI2557.1", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Wilson_1999", 
+            "doi": null, 
+            "bibtex": "\"@article{\nauthor = {Wilson, Damian R. and Ballard, Susan P.},\ntitle = {A microphysically based precipitation scheme for the UK Meteorological Office Unified Model},\njournal = {Quarterly Journal of the Royal Meteorological Society},\nyear = {1999},\nvolume = {125},\npages = {1607-1636},\n}\"\n", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Berry_1967", 
+            "doi": null, 
+            "bibtex": "\"@article{\nauthor = {Berry, E. X.},\ntitle = {Cloud droplet growth by collection},\njournal = {Journal of the Atmospheric Sciences},\nyear = {1967},\nvolume = {24},\npages = {688-701},\n}\"\n", 
+            "url": "https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469%281967%29024%3C0688%3ACDGBC%3E2.0.CO%3B2", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Watanabe_2009", 
+            "doi": "10.1007/s00382-008-0489-0", 
+            "bibtex": "\"@article{\nauthor = {Watanabe, Masahiro and Emori, S. and Satoh, M. and Miura, H.},\ntitle = {A PDF-based hybrid prognostic cloud scheme for general circulation models},\njournal = {Climate Dynamics},\nyear = {2009},\nvolume = {33},\npages = {795-816},\n}\"\n", 
+            "url": "https://link.springer.com/article/10.1007/s00382-008-0489-0", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Bodas-Salcedo_2011", 
+            "doi": "10.1175/2011BAMS2856.1", 
+            "bibtex": "\"@article{\nauthor = {Bodas-Salcedo, A. and Webb, M. J. and Bony, S. and Chepfer, H. and Dufresne, J.-L. and Klein, S. A. and Zhang, Y. and Marchand, R. and Haynes, J. M. and Pincus, R. and John, V. O.},\ntitle = {COSP Satellite simulation software for model assessment},\njournal = {Bulletin of the American Meteorological Society},\nyear = {2011},\nvolume = {92},\npages = {1023-1043},\n}\"\n", 
+            "url": "https://journals.ametsoc.org/doi/pdf/10.1175/2011BAMS2856.1", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "McFarlane_1987", 
+            "doi": null, 
+            "bibtex": "\"@article{\nauthor = {McFarlane, N. A.},\ntitle = {The effect of orographically excited gravity wave drag on the general circulation of the lower stratosphere and troposphere},     \njournal = {Journal of the Atmospheric Sciences},\nyear = {1987},\nvolume = {44},\npages = {1775-1800},\n}\"\n", 
+            "url": "https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469%281987%29044%3C1775%3ATEOOEG%3E2.0.CO%3B2", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Watanabe_2011", 
+            "doi": "10.5194/gmd-4-845-2011", 
+            "bibtex": "\"@article{\nauthor = {Watanabe, S. and Hajima, T. and Sudo, K. and Nagashima, T. and Takemura, T. and Okajima, H. and Nozawa, T. and Kawase, H. and Abe, M. and Yokohata, T. and Ise, T. and Sato, H. and Kato, E. and Takata, K. and Emori, S. and Kawamiya, M.},\ntitle = {MIROC-ESM 2010: model description and basic results of CMIP5-20c3m experiments},\njournal = {Geoscientific Model Development},\nyear = {2011},\nvolume = {4},\npages = {845-872},\n}\"\n", 
+            "url": "https://www.geosci-model-dev.net/4/845/2011/gmd-4-845-2011.html", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Watanabe_2008", 
+            "doi": "10.2151/sola.2008-016", 
+            "bibtex": "\"@article{\nauthor = {Watanabe, Shingo},\ntitle = {Constraints on a non-orographic gravity wave drag parameterization using a gravity wave resolving general circulation model},     \njournal = {Scientific Online Letters on the Atmosphere},\nyear = {2008},\nvolume = {4},\npages = {61-64},\n}\"\n", 
+            "url": "https://www.jstage.jst.go.jp/article/sola/4/0/4_0_61/_pdf/-char/en", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Hines_1997a", 
+            "doi": "10.1016/S1364-6826(96)00079-X", 
+            "bibtex": "\"@article{\nauthor = {Hines, Colin O.},\ntitle = {Doppler-spread parameterization of gravity-wave momentum deposition in the middle atmosphere. Part 1: Basic formulation},     \njournal = {Journal of Atmospheric and Solar-Terrestrial Physics},\nyear = {1997},\nvolume = {59},\npages = {371-386},\n}\"\n", 
+            "url": "https://www.sciencedirect.com/science/article/pii/S136468269600079X", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Hines_1997b", 
+            "doi": "10.1016/S1364-6826(96)00080-6", 
+            "bibtex": "\"@article{\nauthor = {Hines, Colin O.},\ntitle = {Doppler-spread parameterization of gravity-wave momentum deposition in the middle atmosphere. Part 2: Broad and quasi monochromatic spectra, and implementation},     \njournal = {Journal of Atmospheric and Solar-Terrestrial Physics},\nyear = {1997},\nvolume = {59},\npages = {387-400},\n}\"\n", 
+            "url": "https://www.sciencedirect.com/science/article/pii/S1364682696000806", 
+            "long_name": null
         }
     ]
 }
