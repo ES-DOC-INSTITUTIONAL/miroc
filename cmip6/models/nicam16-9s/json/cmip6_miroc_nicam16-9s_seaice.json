@@ -1,0 +1,8 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "miroc", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "nicam16-9s", 
+    "topic": "seaice", 
+    "content": {}
+}

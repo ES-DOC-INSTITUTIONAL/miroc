@@ -1,0 +1,8 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "miroc", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "miroc-es2l", 
+    "topic": "aerosol", 
+    "content": {}
+}
