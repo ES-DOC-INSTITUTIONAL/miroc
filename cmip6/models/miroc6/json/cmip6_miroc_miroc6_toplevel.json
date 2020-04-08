@@ -197,43 +197,43 @@
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.equivalence_concentration": {
             "values": [
-                "Option 1"
+                "Option 1: CFCs, including CFC-12, are provided as actual concentrations"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.SO4.provision": {
             "values": [
-                "M", 
-                "E"
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed", 
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information": {
@@ -243,22 +243,22 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
             "values": [
-                "E"
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
             "values": [
-                "E"
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
             "values": [
-                "Y"
+                "Y: Prescribed concentrations, distributions or time series data"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.provision": {
             "values": [
-                "E"
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.aerosol_effect_on_ice_clouds": {
@@ -268,7 +268,7 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.provision": {
             "values": [
-                "E"
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.aerosol_effect_on_ice_clouds": {
@@ -283,12 +283,12 @@
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.dust.provision": {
             "values": [
-                "M"
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
             ]
         }, 
         "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.provision": {
             "values": [
-                "C"
+                "C: Fixed prescribed climatology of concentrations with no year-to-year variability"
             ]
         }
     }
