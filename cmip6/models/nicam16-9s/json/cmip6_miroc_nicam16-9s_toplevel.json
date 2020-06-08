@@ -5,26 +5,6 @@
     "sourceID": "nicam16-9s", 
     "topic": "toplevel", 
     "content": {
-        "cmip6.toplevel.key_properties.genealogy.year_released": {
-            "values": [
-                2018
-            ]
-        }, 
-        "cmip6.toplevel.key_properties.genealogy.CMIP5_parent": {
-            "values": [
-                "NICAM.09"
-            ]
-        }, 
-        "cmip6.toplevel.key_properties.software_properties.code_version": {
-            "values": [
-                "NICAM.16"
-            ]
-        }, 
-        "cmip6.toplevel.key_properties.software_properties.code_languages": {
-            "values": [
-                "Fortran90, C"
-            ]
-        }, 
         "cmip6.toplevel.radiative_forcings.overview": {
             "values": [
                 "In the radiative transfer calculation, gaseous matters except for water vapor are prescribed. Global annual mean values of volumetric concentration [PPM] of CO2, CH4, N2O, and CFCs are given according to the CMIP6 protocol. In particular, the radiative transfer model MSTRNX calculated 25 types of CFCs and 17 types of those are specified."
