@@ -5,6 +5,128 @@
     "sourceID": "miroc6", 
     "topic": "seaice", 
     "content": {
+        "cmip6.seaice.key_properties.name": {
+            "values": [
+                "COCO4.9"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.keywords": {
+            "values": [
+                "Subgrid-scale thickness distribution, 1-layer thermodynamics, EVP rheology"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.overview": {
+            "values": [
+                "COCO is an ice-ocean coupled model which can be used as a stand-alone model or an ice-ocean component of MIROC. It has been developed in Atmosphere and Ocean Research Institute (AORI), The University of Tokyo, and Japan Agency for Marine-Earth Science and Technology (JAMSTEC).  The sea-ice part of COCO employs subgrid-scale thickness distribution, 1-layer thermodynamics, and EVP rheology."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.variables.prognostic": {
+            "values": [
+                "Sea ice concentration", 
+                "Sea ice thickness", 
+                "Sea ice u-velocity", 
+                "Sea ice v-velocity", 
+                "Sea ice enthalpy", 
+                "Internal ice stress", 
+                "Snow depth: Snow on ice thickness"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.seawater_properties.ocean_freezing_point": {
+            "values": [
+                "Other"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.name": {
+            "values": [
+                "COCO medium resolution model"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "1 degree"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                92160
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.description": {
+            "values": [
+                "Our primary target of tuning to retain reasonable sea-ice extent in each hemisphere and realistic horizontal distribution of sea-ice concentration/thickness. Climate performance metrics generally take priority. Note that most of the parameters in other submodels are tuned mainly for improving global climate processes rather than sea-ice states.  Sea-ice and snow on the ice have quite a high albedo to enhance the reproducibility with the other submodels' setting."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.target": {
+            "values": [
+                "sea ice minima in NH, sea ice maxima in SH, and reasonable horizontal distibution"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.simulations": {
+            "values": [
+                "pi-control only"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.variables": {
+            "values": [
+                "albedo-related paramters"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.ice_strength": {
+            "values": [
+                20000
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.snow_conductivity": {
+            "values": [
+                0.31
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.ice_thickness_in_leads": {
+            "values": [
+                0.3
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.additional_parameters": {
+            "values": [
+                "maximum concentration in a specific grid: 0.99"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.assumptions.description": {
+            "values": [
+                "Ice thinner than minimum thickness, 0.3 m, is not allowed to exist. Snow area fraction over sea ice is not explicitly handled; instead, albedo dependency on skin temperature and snow thickness implicitly includes the effect of snow area fraction change."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.assumptions.on_diagnostic_variables": {
+            "values": [
+                "Some of variables such as snow area fraction is not defined"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.assumptions.missing_processes": {
+            "values": [
+                "Melt pond is not represented. Rainfall as a form of water directly falls into the ocean and does not interact with the sea-ice component."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.description": {
+            "values": [
+                "We have checked changes of the properties which should be conserved are in the range of numerical error by calculating the difference of these properties by using multiple snapshots of the modeled ocean. "
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.properties": {
+            "values": [
+                "Mass", 
+                "Salt"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.budget": {
+            "values": [
+                "Mass, sea-ice mass per area, snow mass per area. Salt, sea-ice mass per area."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.was_flux_correction_used": {
+            "values": [
+                false
+            ]
+        }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid": {
             "values": [
                 "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
@@ -73,6 +195,156 @@
         "cmip6.seaice.grid.snow_on_seaice.snow_fraction": {
             "values": [
                 "Snow area fraction is not explicitly handled; instead, albedo dependency on skin temperature and snow thickness implicitly includes the effect of snow area fraction change."
+            ]
+        }, 
+        "cmip6.seaice.dynamics.horizontal_transport": {
+            "values": [
+                "Eulerian"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.transport_in_thickness_space": {
+            "values": [
+                "Other"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.ice_strength_formulation": {
+            "values": [
+                "Hibler 1979"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.redistribution": {
+            "values": [
+                "Ridging"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.enthalpy_formulation": {
+            "values": [
+                "Pure ice latent and sensible heat + explicit brine inclusions (Bitz and Lipscomb)"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.thermal_conductivity": {
+            "values": [
+                "Pure ice"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.heat_diffusion": {
+            "values": [
+                "Conduction fluxes"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
+            "values": [
+                "Other"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.fixed_salinity_value": {
+            "values": [
+                5
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.heat_content_of_precipitation": {
+            "values": [
+                "Precipitation as a form of water directly falls into the ocean and does not interact with the sea-ice component."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.new_ice_formation": {
+            "values": [
+                "From open water"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.ice_vertical_growth_and_melt": {
+            "values": [
+                "From open water, bottom, and lateral"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.ice_lateral_melting": {
+            "values": [
+                "Other"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.ice_surface_sublimation": {
+            "values": [
+                "Sublimation flux is diagnosed in the coupler to the atmospheric component."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.frazil_ice": {
+            "values": [
+                "New ice formation from open water implicitly includes frazil ice formation. "
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.has_multiple_sea_ice_salinities": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.sea_ice_salinity_thermal_impacts": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.mass_transport.salinity_type": {
+            "values": [
+                "Constant"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.mass_transport.constant_salinity_value": {
+            "values": [
+                5
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.thermodynamics.salinity_type": {
+            "values": [
+                "Constant"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.thermodynamics.constant_salinity_value": {
+            "values": [
+                5
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.ice_thickness_distribution.representation": {
+            "values": [
+                "Explicit"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.ice_floe_size_distribution.representation": {
+            "values": [
+                "Parameterised"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.melt_ponds.are_included": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.melt_ponds.formulation": {
+            "values": [
+                "Other"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.has_snow_aging": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.has_snow_ice_formation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.snow_ice_formation_scheme": {
+            "values": [
+                "When snow-ice interface comes below sea level, the snow between the interface and sea level turns into sea ice."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.redistribution": {
+            "values": [
+                "Snow-ice"
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.surface_albedo": {
+            "values": [
+                "Other"
             ]
         }
     }

@@ -4,5 +4,21 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "nicam16-7s", 
     "topic": "toplevel", 
-    "content": {}
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "NICAM"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.keywords": {
+            "values": [
+                "Non-hydrostatic high resolution cloud resolving global atmospheric model"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "Non-hydrostatic cloud resolving non-parametric\nIcosahedral grid"
+            ]
+        }
+    }
 }
