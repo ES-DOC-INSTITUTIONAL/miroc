@@ -76,19 +76,19 @@
             "initializedFrom": ""
         }, 
         "aerosol": {
-            "initializedFrom": "cmip5:miroc5"
+            "initializedFrom": ""
         }, 
         "atmos": {
-            "initializedFrom": "cmip5:miroc5"
+            "initializedFrom": ""
         }, 
         "land": {
-            "initializedFrom": "cmip5:miroc5"
+            "initializedFrom": ""
         }, 
         "ocean": {
-            "initializedFrom": "cmip5:miroc5"
+            "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": "cmip5:miroc5"
+            "initializedFrom": ""
         }
     }, 
     "nicam16-7s": {
