@@ -34,7 +34,7 @@
         "cmip6.ocean.key_properties.prognostic_variables": {
             "values": [
                 "Potential temperature", 
-                "SSH: Sea Surface Height", 
+                "SSH", 
                 "Salinity", 
                 "U-velocity", 
                 "V-velocity"
@@ -62,7 +62,7 @@
         }, 
         "cmip6.ocean.key_properties.seawater_properties.ocean_freezing_point": {
             "values": [
-                "Other"
+                "Other: -0.0543*Salinity"
             ]
         }, 
         "cmip6.ocean.key_properties.seawater_properties.ocean_specific_heat": {
@@ -169,7 +169,12 @@
             "values": [
                 "Salt", 
                 "Volume of ocean", 
-                "Other"
+                "Other: potential temperature"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.conservation.was_flux_correction_used": {
+            "values": [
+                false
             ]
         }, 
         "cmip6.ocean.grid.name": {
@@ -197,6 +202,11 @@
                 "Arakawa B-grid"
             ]
         }, 
+        "cmip6.ocean.grid.discretisation.horizontal.scheme": {
+            "values": [
+                "Finite difference"
+            ]
+        }, 
         "cmip6.ocean.timestepping_framework.name": {
             "values": [
                 "Staggard timestepping"
@@ -204,12 +214,12 @@
         }, 
         "cmip6.ocean.timestepping_framework.diurnal_cycle": {
             "values": [
-                "Via coupling: Diurnal cycle via coupling frequency"
+                "Via coupling"
             ]
         }, 
         "cmip6.ocean.timestepping_framework.tracers.scheme": {
             "values": [
-                "Other"
+                "Other: Time staggard"
             ]
         }, 
         "cmip6.ocean.timestepping_framework.tracers.time_step": {
@@ -219,12 +229,12 @@
         }, 
         "cmip6.ocean.timestepping_framework.baroclinic_dynamics.type": {
             "values": [
-                "Other"
+                "Other: Time staggard"
             ]
         }, 
         "cmip6.ocean.timestepping_framework.baroclinic_dynamics.scheme": {
             "values": [
-                "Other"
+                "Other: Time staggard"
             ]
         }, 
         "cmip6.ocean.timestepping_framework.baroclinic_dynamics.time_step": {
@@ -240,6 +250,11 @@
         "cmip6.ocean.timestepping_framework.barotropic.time_step": {
             "values": [
                 20
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.vertical_physics.method": {
+            "values": [
+                "Implicit"
             ]
         }, 
         "cmip6.ocean.advection.momentum.type": {
@@ -287,9 +302,14 @@
                 "Prather 2nd moment (PSOM)"
             ]
         }, 
+        "cmip6.ocean.advection.vertical_tracers.flux_limiter": {
+            "values": [
+                true
+            ]
+        }, 
         "cmip6.ocean.lateral_physics.scheme": {
             "values": [
-                "None: No transient eddies in ocean"
+                "None"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.direction": {
@@ -299,12 +319,12 @@
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.order": {
             "values": [
-                "Harmonic: Second order"
+                "Harmonic"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.operator.discretisation": {
             "values": [
-                "Second order: Second order"
+                "Second order"
             ]
         }, 
         "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type": {
@@ -344,12 +364,12 @@
         }, 
         "cmip6.ocean.lateral_physics.tracers.operator.order": {
             "values": [
-                "Harmonic: Second order"
+                "Harmonic"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.operator.discretisation": {
             "values": [
-                "Second order: Second order"
+                "Second order"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.type": {
@@ -374,7 +394,7 @@
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
             "values": [
-                "GM: Gent & McWilliams"
+                "GM"
             ]
         }, 
         "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.constant_val": {
@@ -385,6 +405,11 @@
         "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.flux_type": {
             "values": [
                 "Skew flux"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.added_diffusivity": {
+            "values": [
+                "none"
             ]
         }, 
         "cmip6.ocean.vertical_physics.boundary_layer_mixing.details.langmuir_cells_mixing": {
@@ -444,7 +469,7 @@
         }, 
         "cmip6.ocean.vertical_physics.interior_mixing.tracers.type": {
             "values": [
-                "Other"
+                "Other: prescribed vertical profile"
             ]
         }, 
         "cmip6.ocean.vertical_physics.interior_mixing.tracers.profile": {
@@ -467,9 +492,14 @@
                 false
             ]
         }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.momentum.background": {
+            "values": [
+                "1.0e-4 m2/s"
+            ]
+        }, 
         "cmip6.ocean.uplow_boundaries.free_surface.scheme": {
             "values": [
-                "Other"
+                "Other: linear split-explicit"
             ]
         }, 
         "cmip6.ocean.uplow_boundaries.free_surface.embeded_seaice": {
@@ -485,6 +515,11 @@
         "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl": {
             "values": [
                 "Acvective"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.sill_overflow": {
+            "values": [
+                "No specific treatment except the BBL parameterization described above."
             ]
         }, 
         "cmip6.ocean.boundary_forcing.surface_pressure": {
@@ -554,7 +589,12 @@
         }, 
         "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.from_sea_ice": {
             "values": [
-                "Other"
+                "Other: Freshwater flux + Real salt flux"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.forced_mode_restoring": {
+            "values": [
+                "restoring to SSS climatology except under sea-ice cover, with a timescale of 1 yr / 50 m."
             ]
         }
     }

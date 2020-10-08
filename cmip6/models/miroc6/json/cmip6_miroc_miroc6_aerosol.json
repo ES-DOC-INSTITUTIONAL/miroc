@@ -63,7 +63,7 @@
         }, 
         "cmip6.aerosol.key_properties.timestep_framework.integrated_scheme_type": {
             "values": [
-                "Other"
+                "Other: leap-frog"
             ]
         }, 
         "cmip6.aerosol.key_properties.resolution.name": {
@@ -91,6 +91,11 @@
                 "aerosol optical thickness,mass concentration,\u00c5ngstr\u00f6m exponent,aerosol single scattering albedo"
             ]
         }, 
+        "cmip6.aerosol.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "aerosol optical thickness,mass concentration,\u00c5ngstr\u00f6m exponent,aerosol single scattering albedo"
+            ]
+        }, 
         "cmip6.aerosol.grid.matches_atmosphere_grid": {
             "values": [
                 true
@@ -101,6 +106,11 @@
                 "T85L81h"
             ]
         }, 
+        "cmip6.aerosol.grid.resolution.is_adaptive_grid": {
+            "values": [
+                false
+            ]
+        }, 
         "cmip6.aerosol.transport.scheme": {
             "values": [
                 "Specific transport scheme (semi-lagrangian)"
@@ -109,6 +119,11 @@
         "cmip6.aerosol.transport.mass_conservation_scheme": {
             "values": [
                 "Uses atmospheric chemistry transport scheme"
+            ]
+        }, 
+        "cmip6.aerosol.transport.convention": {
+            "values": [
+                "Convective fluxes connected to tracers"
             ]
         }, 
         "cmip6.aerosol.emissions.method": {
@@ -220,6 +235,11 @@
                 true
             ]
         }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.longwave_bands": {
+            "values": [
+                14
+            ]
+        }, 
         "cmip6.aerosol.model.name": {
             "values": [
                 "SPRINTARS"
@@ -264,6 +284,14 @@
             "values": [
                 "Bulk", 
                 "Bin"
+            ]
+        }, 
+        "cmip6.aerosol.model.bulk_scheme_species": {
+            "values": [
+                "Sulphate", 
+                "Black carbon / soot", 
+                "SOA (secondary organic aerosols)", 
+                "POM (particulate organic matter)"
             ]
         }
     }

@@ -85,6 +85,11 @@
                 "FORTRAN"
             ]
         }, 
+        "cmip6.land.key_properties.tuning_applied.description": {
+            "values": [
+                "Land component was not used for tuning."
+            ]
+        }, 
         "cmip6.land.grid.overview": {
             "values": [
                 "Atmosphere horizontal grid is used for the land model."
@@ -103,6 +108,11 @@
         "cmip6.land.grid.vertical.description": {
             "values": [
                 "Soil has six layers with a thickness of 0.05, 0.2, 0.75, 1, 2, and 10 m."
+            ]
+        }, 
+        "cmip6.land.grid.vertical.total_depth": {
+            "values": [
+                14
             ]
         }, 
         "cmip6.land.soil.overview": {
@@ -272,6 +282,12 @@
                 "Explicit diffusion"
             ]
         }, 
+        "cmip6.land.soil.heat_treatment.processes": {
+            "values": [
+                "Soil moisture freeze-thaw", 
+                "Coupling with snow temperature"
+            ]
+        }, 
         "cmip6.land.snow.overview": {
             "values": [
                 "The snow parameterization includes snow accumulation, snowmelt, and refreeze of snowmelt and rainfall with up to three snow layers. Snow temperature is calculated by a heat conduction equation. SSNOWD (Liston, 2004) snow cover fraction parameterization, which assumes a subgrid snow distribution function, is implemented."
@@ -333,6 +349,12 @@
         "cmip6.land.snow.snow_albedo.type": {
             "values": [
                 "Prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.snow_albedo.functions": {
+            "values": [
+                "Snow age", 
+                "Aerosol deposition"
             ]
         }, 
         "cmip6.land.vegetation.overview": {
@@ -445,6 +467,11 @@
                 "Stomatal resistance is calculated using a photosynthetic scheme after SiB2 (Selleres et al., 1996)."
             ]
         }, 
+        "cmip6.land.vegetation.prognostic_variables": {
+            "values": [
+                "Canopy skin temperature, Canopy water content"
+            ]
+        }, 
         "cmip6.land.energy_balance.overview": {
             "values": [
                 "The surface energy balance is calculated by linearization of surface temperature equations for canopy and surface. The canopy albedo and transmissivity are calculated using simplified radiative transfer in canopy by Watanabe and Ohtani (1995). The bulk coefficients are estimated based on Watanabe (1994). "
@@ -463,6 +490,12 @@
         "cmip6.land.energy_balance.evaporation": {
             "values": [
                 "Other: Alpha for soil evaporation, Beta for transpiration"
+            ]
+        }, 
+        "cmip6.land.energy_balance.processes": {
+            "values": [
+                "Transpiration", 
+                "Other: Interception evaporation, sublimation from snow and frozen soil moisture, and dew."
             ]
         }, 
         "cmip6.land.carbon_cycle.name": {
@@ -575,6 +608,11 @@
                 "N/A"
             ]
         }, 
+        "cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties": {
+            "values": [
+                "N/A"
+            ]
+        }, 
         "cmip6.land.nitrogen_cycle.name": {
             "values": [
                 "N/A"
@@ -645,6 +683,12 @@
                 "Direct (large rivers)"
             ]
         }, 
+        "cmip6.land.river_routing.oceanic_discharge.quantities_transported": {
+            "values": [
+                "Water", 
+                "Other: Ice"
+            ]
+        }, 
         "cmip6.land.lakes.overview": {
             "values": [
                 "The lake model considers vertical thermal diffusion and mass conservation. It is the same as the previous version of the model used for CMIP5."
@@ -698,6 +742,11 @@
         "cmip6.land.lakes.method.endorheic_basins": {
             "values": [
                 true
+            ]
+        }, 
+        "cmip6.land.lakes.wetlands.description": {
+            "values": [
+                "A scheme implicitly representing a snow-fed wetland with a surface reservior is implemented."
             ]
         }
     }
