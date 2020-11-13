@@ -69,6 +69,626 @@
             "values": [
                 "MIROC-AGCM is coupled with the land surface and the sea ice-ocean components before the tuning under the pre-industrial boundary conditions. In the first model tuning step, climatology, seasonal progression, and internal climate variability in the tropical coupled system are tuned in order that departures from observations or reanalysis datasets are reduced. Representation of the tropical system in MIROC6 is sensitive to the parameters for cumulus convection and planetary boundary layer processes. Next, the wintertime mid-latitude westerly jets and the stationary waves in the troposphere are tuned using the parameters of the orographic gravity wave drag and the hyper diffusion of momentum. The parameters of the hyper diffusion and the non-orographic gravity wave drag are also used when tuning stratospheric circulations of the polar vortex and QBO. Finally, the radiation budget at the TOA is tuned, primarily using the parameters for the auto-conversion process. The surface albedos for bare sea-ice and snow-covered sea-ice are set to higher values than in observations in order to avoid underestimating of the summertime sea-ice extent in the Arctic Ocean due to excess downward shortwave radiation in this region. In addition, parameter tuning for cooling effects due to interactions between anthropogenic aerosol emissions and cloud-radiative processes are done. In order that the cooling effects can be closer to the estimate of -0.9 W/m^2 (IPCC, 2013; negative value indicates cooling) with an uncertainty range of -1.9 to -0.1 W/m^2, parameters of cloud microphysics and the aerosol transport module are perturbed."
             ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_type": {
+            "values": [
+                "Spectral"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.grid_type": {
+            "values": [
+                "Gaussian"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.vertical.coordinate_type": {
+            "values": [
+                "Hybrid sigma-pressure"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.timestepping_type": {
+            "values": [
+                "Leap frog"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.prognostic_variables": {
+            "values": [
+                "Divergence/curl", 
+                "Temperature", 
+                "Surface pressure", 
+                "Total water", 
+                "Total water moments", 
+                "Water ice", 
+                "Other: Tracer variables including aerosol species"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_boundary_condition": {
+            "values": [
+                "Sponge layer"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.diffusion_horizontal.scheme_method": {
+            "values": [
+                "Bi-harmonic"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_name": {
+            "values": [
+                "Other: FFSL+PPM"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_characteristics": {
+            "values": [
+                "Other: Flux form Semi-Lagrangian scheme in which subgrid tracer concentration distribution in the upwind direction is calculated using Piecewise Parabolic Method with monotonicity constraint (K-1 model developers, 2004)"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.conserved_quantities": {
+            "values": [
+                "Tracer mass"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.conservation_method": {
+            "values": [
+                "Conservation fixer"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.momentum.scheme_characteristics": {
+            "values": [
+                "Other: Spectral"
+            ]
+        }, 
+        "cmip6.atmos.radiation.name": {
+            "values": [
+                "mstrnX"
+            ]
+        }, 
+        "cmip6.atmos.radiation.overview": {
+            "values": [
+                "The radiation code mstrn, which was developed in 1995, has been used for GCM. The CKD method is adopted for efficient approximation of the wavenumber integration, and the numbers of quadrature points are optimized by a nonlinear optimization. The objective function of the optimization is given by the sum of the mean root square of errors of the radiation flux and the heating rate. This code can also be used to treat Rayleigh and Mie scattering and absorption/emission of particulate matters. The radiative transfer solver uses the two-stream approximation, but in a form of the discrete-ordinate method/adding method expandable to any stream number. "
+            ]
+        }, 
+        "cmip6.atmos.radiation.aerosols": {
+            "values": [
+                "Sulphate", 
+                "Sea salt", 
+                "Dust", 
+                "Organic", 
+                "BC", 
+                "SOA", 
+                "POM"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.name": {
+            "values": [
+                "MstrnX (Shortwave and longwave radiaitons are combined in this code)"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_integration": {
+            "values": [
+                "Wide-band model", 
+                "Correlated-k"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.transport_calculation": {
+            "values": [
+                "Two-stream"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
+            "values": [
+                15
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.general_interactions": {
+            "values": [
+                "Emission/absorption,", 
+                "Scattering"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_GHG.greenhouse_gas_complexity": {
+            "values": [
+                "CO2", 
+                "CH4", 
+                "O3", 
+                "H2O"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_ice.physical_representation": {
+            "values": [
+                "Bi-modal size distribution", 
+                "Ice water path", 
+                "Effective crystal radius"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_ice.optical_methods": {
+            "values": [
+                "Finite difference time domain (FDTD)", 
+                "T-matrix", 
+                "Geometric optics"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_liquid.physical_representation": {
+            "values": [
+                "Effective cloud droplet radii", 
+                "Liquid water path"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_liquid.optical_methods": {
+            "values": [
+                "Mie theory"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_aerosols.physical_representation": {
+            "values": [
+                "Effective radii", 
+                "Mixing state"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_aerosols.optical_methods": {
+            "values": [
+                "Mie theory"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.name": {
+            "values": [
+                "MstrnX (Shortwave and longwave radiaitons are combined in this code)"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_integration": {
+            "values": [
+                "Wide-band model", 
+                "Correlated-k"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.transport_calculation": {
+            "values": [
+                "Two-stream"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_intervals": {
+            "values": [
+                14
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.general_interactions": {
+            "values": [
+                "Emission/absorption,", 
+                "Scattering"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_GHG.greenhouse_gas_complexity": {
+            "values": [
+                "CO2", 
+                "CH4", 
+                "N2O", 
+                "O3", 
+                "H2O"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_GHG.ODS": {
+            "values": [
+                "CFC-12", 
+                "CFC-11", 
+                "CFC-113", 
+                "CFC-114", 
+                "CFC-115", 
+                "HCFC-141b", 
+                "HCFC-142b"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_GHG.other_flourinated_gases": {
+            "values": [
+                "HFC-134a", 
+                "HFC-23", 
+                "HFC-125", 
+                "HFC-143a", 
+                "HFC-152a", 
+                "C2F6", 
+                "SF6"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_ice.physical_reprenstation": {
+            "values": [
+                "Bi-modal size distribution", 
+                "Ice water path", 
+                "Effective crystal radius"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_ice.optical_methods": {
+            "values": [
+                "Finite difference time domain (FDTD)", 
+                "T-matrix", 
+                "Geometric optics"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_liquid.physical_representation": {
+            "values": [
+                "Effective cloud droplet radii", 
+                "Liquid water path"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_liquid.optical_methods": {
+            "values": [
+                "Mie theory"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_aerosols.physical_representation": {
+            "values": [
+                "Effective radii", 
+                "Mixing state"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_aerosols.optical_methods": {
+            "values": [
+                "Mie theory"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.overview": {
+            "values": [
+                "The cumulus convection scheme is based on Chikira and Sugiyama (2010). The turbulence scheme is based on Nakanishi (2001) and Nakanishi and Niino (2004). The shallow convection scheme is based on Park and Bretherton (2009)."
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_name": {
+            "values": [
+                "Mellor-Yamada"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_type": {
+            "values": [
+                "TKE prognostic", 
+                "TKE coupled with water"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.closure_order": {
+            "values": [
+                2
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.counter_gradient": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_name": {
+            "values": [
+                "Chikira-Sugiyama"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_type": {
+            "values": [
+                "Mass-flux", 
+                "Plume ensemble"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_method": {
+            "values": [
+                "Other: Cloud work function"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.processes": {
+            "values": [
+                "Convective momentum transport", 
+                "Entrainment", 
+                "Detrainment", 
+                "Updrafts", 
+                "Downdrafts", 
+                "Re-evaporation of convective precipitation"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.microphysics": {
+            "values": [
+                "Tuning parameter based"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_name": {
+            "values": [
+                "Park-Bretherton"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_type": {
+            "values": [
+                "Mass-flux"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_method": {
+            "values": [
+                "Separate diagnosis"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.processes": {
+            "values": [
+                "Convective momentum transport", 
+                "Entrainment", 
+                "Detrainment", 
+                "Penetrative convection"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.microphysics": {
+            "values": [
+                "Tuning parameter based"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.overview": {
+            "values": [
+                "The large scale cloud microphysics and precipitation scheme is based on Wilson and Ballard (1999) and Berry (1967)."
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.hydrometeors": {
+            "values": [
+                "Liquid rain", 
+                "Other: Ice, including both cloud ice and snow."
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.processes": {
+            "values": [
+                "Mixed phase", 
+                "Cloud droplets", 
+                "Cloud ice", 
+                "Ice nucleation", 
+                "Water vapour deposition", 
+                "Effect of raindrops", 
+                "Effect of snow"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.name": {
+            "values": [
+                "Hybrid prognostic cloud scheme"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.overview": {
+            "values": [
+                "The large-scale condenstation processes with prognostic cloud fraction and condensates based on Watanabe et al. (2009, Clim Dyn)."
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.scheme_type": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.uses_separate_treatment": {
+            "values": [
+                "Clouds in deep convective towers are represented by Chikira and Sugiyama (2010 JAS) deep convection scheme. Other non-convective clouds, including anvil clouds accompanyed by deep convections, are represented by the prognostic cloud scheme described above."
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.processes": {
+            "values": [
+                "Other: [1] Fast condensation due to liquid water super-saturation, and [2] sub-grid scale distribution of total water, which varies in response to small-scale processes such as cumulus detrainment and turbulent mixing"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.prognostic_variables": {
+            "values": [
+                "Ice", 
+                "Liquid", 
+                "Other: Variance of PDF representing sub-grid scale distribution of total water", 
+                "Other: Skewness of PDF representing sub-grid scale distribution of total water"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.atmos_coupling": {
+            "values": [
+                "Atmosphere_radiation", 
+                "Atmosphere_microphysics_precipitation", 
+                "Atmosphere_turbulence_convection", 
+                "Atmosphere_observation_simulation"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.optical_cloud_properties.cloud_overlap_method": {
+            "values": [
+                "Maximum-random"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.optical_cloud_properties.cloud_inhomogeneity": {
+            "values": [
+                "Sub-grid scale distribution of total water is taken into account when diagnosing condensation of water vapor."
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.type": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.function_name": {
+            "values": [
+                "Skewed triangular"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.convection_coupling": {
+            "values": [
+                "Not coupled with convection"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_ice_distribution.type": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_ice_distribution.function_name": {
+            "values": [
+                "Skewed triangular"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_ice_distribution.convection_coupling": {
+            "values": [
+                "Not coupled with convection"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.name": {
+            "values": [
+                "COSP version 1.4.1"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.overview": {
+            "values": [
+                "The CFMIP Observation Simulator Package (COSP, Bodas-Salcedo et al. 2011) is implemented in the atmospheric model. The COSP is a software tool that post-processes output data from the atmospheric model to simulate observations of multiple satellite instruments."
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.isscp_attributes.top_height_estimation_method": {
+            "values": [
+                "Other: top height adjusted using both a computed infrared brightness temperature and the visible optical depth"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.isscp_attributes.top_height_direction": {
+            "values": [
+                "Highest altitude level"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.cosp_attributes.run_configuration": {
+            "values": [
+                "Inline"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.cosp_attributes.number_of_grid_points": {
+            "values": [
+                32768
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.cosp_attributes.number_of_sub_columns": {
+            "values": [
+                140
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.cosp_attributes.number_of_levels": {
+            "values": [
+                40
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.frequency": {
+            "values": [
+                94
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.type": {
+            "values": [
+                "Space borne"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.gas_absorption": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.effective_radius": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.lidar_inputs.ice_types": {
+            "values": [
+                "Ice spheres"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.lidar_inputs.overlap": {
+            "values": [
+                "Other: Maximum-Random overlap"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.name": {
+            "values": [
+                "Orographic: McFarlane (1987), Non-orographic: Hines (1997)"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.overview": {
+            "values": [
+                "The orographic gravity wave scheme is based on McFarlane (1987, J. Atmos. Sci.). The non-orographic gravity wave scheme is based on Hines (1997) and its source parameters are prescribed following Watanabe (2008, SOLA) and Watanabe et al. (2011, GMD)."
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.sponge_layer": {
+            "values": [
+                "Other: No sponge layer is adopted in gravity wave parameterizations."
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.background": {
+            "values": [
+                "Other: No background wave distribution is assumed in gravity wave paraemeterizations, but model's prognostic dynamical and thermodinamical fields are used."
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.subgrid_scale_orography": {
+            "values": [
+                "Effect on drag"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.name": {
+            "values": [
+                "McFarlane (1987)"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.source_mechanisms": {
+            "values": [
+                "Linear mountain waves"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.calculation_method": {
+            "values": [
+                "Other: Linear single monochromatic mountain wave according to McFarlane (1987, J. Atmos. Sci.)"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.propagation_scheme": {
+            "values": [
+                "Linear theory"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.dissipation_scheme": {
+            "values": [
+                "Single wave"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.non_orographic_gravity_waves.name": {
+            "values": [
+                "Hines (1997)"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.non_orographic_gravity_waves.source_mechanisms": {
+            "values": [
+                "Other: Source parameters are prescribed following Watanabe (2008, SOLA) and Watanabe et al. (2011, GMD)."
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.non_orographic_gravity_waves.calculation_method": {
+            "values": [
+                "Spatially dependent"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.non_orographic_gravity_waves.propagation_scheme": {
+            "values": [
+                "Linear theory"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.non_orographic_gravity_waves.dissipation_scheme": {
+            "values": [
+                "Spectral"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_pathways.pathways": {
+            "values": [
+                "SW radiation"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.type": {
+            "values": [
+                "Transient"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.type": {
+            "values": [
+                "Fixed"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.computation_method": {
+            "values": [
+                "Berger 1978"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.volcanoes_treatment.volcanoes_characteristics": {
+            "values": [
+                "Monthly and zonal averaged forcing data in each year were input. In the future ssp scenario experiments, the minimum extinction coefficients at each radiation band in the historical simulation period(1850-2014) were used as the background values."
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.volcanoes_treatment.volcanoes_implementation": {
+            "values": [
+                "Stratospheric aerosols optical thickness"
+            ]
         }
     }
 }

@@ -28,12 +28,12 @@
                 "Sea ice v-velocity", 
                 "Sea ice enthalpy", 
                 "Internal ice stress", 
-                "Snow depth: Snow on ice thickness"
+                "Snow depth"
             ]
         }, 
         "cmip6.seaice.key_properties.seawater_properties.ocean_freezing_point": {
             "values": [
-                "Other"
+                "Other: T_frz [C] = -0.0543 * Salinity"
             ]
         }, 
         "cmip6.seaice.key_properties.resolution.name": {
@@ -129,7 +129,7 @@
         }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid": {
             "values": [
-                "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
+                "Ocean grid"
             ]
         }, 
         "cmip6.seaice.grid.discretisation.horizontal.grid_type": {
@@ -154,7 +154,7 @@
         }, 
         "cmip6.seaice.grid.discretisation.vertical.layering": {
             "values": [
-                "Other"
+                "Other: One-Layer"
             ]
         }, 
         "cmip6.seaice.grid.discretisation.vertical.number_of_layers": {
@@ -204,7 +204,7 @@
         }, 
         "cmip6.seaice.dynamics.transport_in_thickness_space": {
             "values": [
-                "Other"
+                "Other: linear remapping"
             ]
         }, 
         "cmip6.seaice.dynamics.ice_strength_formulation": {
@@ -215,6 +215,11 @@
         "cmip6.seaice.dynamics.redistribution": {
             "values": [
                 "Ridging"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.rheology": {
+            "values": [
+                "Elastic-visco-plastic"
             ]
         }, 
         "cmip6.seaice.thermodynamics.energy.enthalpy_formulation": {
@@ -234,7 +239,7 @@
         }, 
         "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
             "values": [
-                "Other"
+                "Other: parametrized (calculated in seaice)"
             ]
         }, 
         "cmip6.seaice.thermodynamics.energy.fixed_salinity_value": {
@@ -259,7 +264,7 @@
         }, 
         "cmip6.seaice.thermodynamics.mass.ice_lateral_melting": {
             "values": [
-                "Other"
+                "Other: Parameterized (ratio of basal melting:lateral melting prescribed)"
             ]
         }, 
         "cmip6.seaice.thermodynamics.mass.ice_surface_sublimation": {
@@ -319,7 +324,7 @@
         }, 
         "cmip6.seaice.thermodynamics.melt_ponds.formulation": {
             "values": [
-                "Other"
+                "Other: no"
             ]
         }, 
         "cmip6.seaice.thermodynamics.snow_processes.has_snow_aging": {
@@ -342,9 +347,19 @@
                 "Snow-ice"
             ]
         }, 
+        "cmip6.seaice.thermodynamics.snow_processes.heat_diffusion": {
+            "values": [
+                "Single-layered heat diffusion"
+            ]
+        }, 
         "cmip6.seaice.radiative_processes.surface_albedo": {
             "values": [
-                "Other"
+                "Other: 0.85-0.95 for visible, 0.65-0.8 for near infrared, depends on temperature"
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.ice_radiation_transmission": {
+            "values": [
+                "Other: absorbed at the top"
             ]
         }
     }
