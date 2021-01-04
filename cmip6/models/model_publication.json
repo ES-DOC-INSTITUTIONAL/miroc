@@ -53,7 +53,7 @@
             "publish": "off"
         }, 
         "aerosol": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
             "publish": "on"
@@ -62,13 +62,13 @@
             "publish": "on"
         }, 
         "ocean": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "ocnbgchem": {
             "publish": "on"
         }, 
         "seaice": {
-            "publish": "off"
+            "publish": "on"
         }
     }, 
     "miroc6": {
