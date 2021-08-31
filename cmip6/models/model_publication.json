@@ -50,7 +50,7 @@
     }, 
     "miroc-es2l": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "aerosol": {
             "publish": "on"
