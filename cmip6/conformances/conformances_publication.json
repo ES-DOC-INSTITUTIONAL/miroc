@@ -1,5 +1,501 @@
 {
     "stage one (i.e. default) conformances": {
         "publish": "on"
+    },
+    "stage two (i.e. final) conformances, arranged (key:value) by MIP -> Model": {
+        "AerChemMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "C4MIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "CDRMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "CFMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "CMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "DAMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "DCPP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "FAFMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "GMMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "GeoMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "HighResMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "LS3MIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "LUMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "OMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "PAMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "PMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "RFMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "ScenarioMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        },
+        "VolMIP": {
+            "MIROC-ES2H": {
+                "publish": "off"
+            },
+            "MIROC-ES2H-NB": {
+                "publish": "off"
+            },
+            "MIROC-ES2L": {
+                "publish": "off"
+            },
+            "MIROC6": {
+                "publish": "off"
+            },
+            "NICAM16-7S": {
+                "publish": "off"
+            },
+            "NICAM16-8S": {
+                "publish": "off"
+            },
+            "NICAM16-9D-L78": {
+                "publish": "off"
+            },
+            "NICAM16-9S": {
+                "publish": "off"
+            }
+        }
     }
 }
