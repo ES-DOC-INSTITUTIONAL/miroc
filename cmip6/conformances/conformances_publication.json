@@ -196,7 +196,7 @@
                 "publish": "off"
             },
             "MIROC6": {
-                "publish": "off"
+                "publish": "on"
             },
             "NICAM16-7S": {
                 "publish": "off"
@@ -352,7 +352,7 @@
                 "publish": "off"
             },
             "MIROC6": {
-                "publish": "off"
+                "publish": "on"
             },
             "NICAM16-7S": {
                 "publish": "off"
@@ -378,7 +378,7 @@
                 "publish": "off"
             },
             "MIROC6": {
-                "publish": "off"
+                "publish": "on"
             },
             "NICAM16-7S": {
                 "publish": "off"
